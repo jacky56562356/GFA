@@ -1,109 +1,98 @@
-import { UserRole, MembershipTier, CertType, CertStatus } from './types';
+import { Locale, Certification, SupportProgram, MemberTier, Merchant, GFAEvent } from './types';
 
-export const MOCK_USER: any = {
-  id: 'u-1',
-  email: 'talent@gfa.com',
-  name: 'Alex Chen',
-  role: UserRole.TALENT,
-  membership: MembershipTier.PRO,
-  avatar: 'https://i.pravatar.cc/150?u=alex',
-  location: 'Los Angeles'
+export const TRANSLATIONS = {
+  [Locale.EN]: {
+    nav: {
+      about: 'About',
+      certification: 'Certification',
+      support: 'Support',
+      casting: 'Casting',
+      membership: 'Membership',
+      partners: 'Partners',
+      events: 'Events',
+      contact: 'Contact'
+    },
+    hero: {
+      title: 'GFA Global Film Alliance',
+      subtitle: 'Certification • Talent • Support • Opportunity',
+      btnCertify: 'Get Certified',
+      btnJoin: 'Join Membership',
+      btnProject: 'Submit Project'
+    }
+  },
+  [Locale.ZH]: {
+    nav: {
+      about: '关于我们',
+      certification: '行业认证',
+      support: '扶持计划',
+      casting: '人才与选角',
+      membership: '会员权益',
+      partners: '合作伙伴',
+      events: '活动与奖项',
+      contact: '联系我们'
+    },
+    hero: {
+      title: 'GFA 全球电影联盟',
+      subtitle: '权威认证 • 人才选拔 • 创作扶持 • 行业机遇',
+      btnCertify: '申请认证',
+      btnJoin: '加入会员',
+      btnProject: '提交项目'
+    }
+  }
 };
 
-export const SUGGESTED_SKILLS = [
-  'Acting', 'Singing', 'Dancing', 'Martial Arts', 'Piano', 'Guitar', 'Violin',
-  'Horse Riding', 'Swimming', 'Stage Combat', 'Voice Acting', 'Improvisation',
-  'Ballet', 'Jazz Dance', 'Contemporary Dance', 'Hip Hop', 'Tap Dance',
-  'Fencing', 'Archery', 'Driving (Manual)', 'Driving (Automatic)', 'Motorcycling',
-  'Fluent Mandarin', 'Fluent Cantonese', 'Fluent Spanish', 'Fluent French',
-  'British Accent', 'American Accent', 'Southern Accent', 'Acrobatics', 'Gymnastics',
-  'Surfing', 'Skateboarding', 'Rock Climbing', 'Yoga', 'Parkour', 'Stunt Work'
+export const MOCK_CERTIFICATIONS: Certification[] = [
+  { id: '1', type: 'Talent', title: 'Professional Actor Certification', description: 'Industry standard vetting for screen performers.' },
+  { id: '2', type: 'Agency', title: 'Certified Production Agency', description: 'Verified compliance with GFA production standards.' },
+  { id: '3', type: 'Project', title: 'GFA Official Seal of Quality', description: 'Approval for film projects seeking international distribution.' }
 ];
 
-export const MOCK_TALENTS: any[] = [
+export const MOCK_PROGRAMS: SupportProgram[] = [
   {
-    id: 't-1',
-    userId: 'u-1',
-    nameZh: '陈艾利',
-    nameEn: 'Alex Chen',
-    gender: 'Male',
-    birthDate: '1998-05-15',
-    height: 182,
-    weight: 75,
-    languages: ['English', 'Mandarin'],
-    skills: ['Martial Arts', 'Piano', 'Singing'],
-    location: 'Los Angeles',
-    photos: ['https://picsum.photos/seed/a1/300/400'],
-    videos: [],
-    isMinor: false,
-    isVerified: true,
-    certId: 'cert-1'
+    id: 'grad-1',
+    category: 'Graduate',
+    title: 'Graduate Film Support',
+    features: ['Script mentorship', 'Production consulting', 'Festival submission guidance'],
+    description: 'Providing guidance and mentorship for recent film graduates.'
   },
   {
-    id: 't-2',
-    userId: 'u-2',
-    nameZh: '张小美',
-    nameEn: 'Lily Zhang',
-    gender: 'Female',
-    birthDate: '2012-03-20',
-    height: 145,
-    weight: 35,
-    languages: ['English'],
-    skills: ['Ballet', 'Gymnastics'],
-    location: 'New York',
-    photos: ['https://picsum.photos/seed/b1/300/400'],
-    videos: [],
-    isMinor: true,
-    guardianId: 'u-3',
-    isVerified: true,
-    certId: 'cert-2'
+    id: 'vfx-1',
+    category: 'VFX',
+    title: 'Post Production & VFX Support',
+    features: ['Editing & Color Grading', 'High-end Compositing', 'Immersive Sound Design'],
+    description: 'Specialized support for post-production workflows and visual effects.'
+  },
+  {
+    id: 'studio-1',
+    category: 'Studio',
+    title: 'Studio & Equipment Support',
+    features: ['Stage access', 'Lighting & Grip kits', 'Production Vehicles'],
+    description: 'Facilitating access to physical production infrastructure.'
   }
 ];
 
-export const MOCK_PROJECTS: any[] = [
-  {
-    id: 'p-1',
-    productionId: 'prod-1',
-    title: 'Neon Dreams: 2049',
-    description: 'A cyberpunk thriller set in Neo-Tokyo. High energy, visual focus.',
-    location: 'Los Angeles, CA',
-    status: 'OPEN',
-    createdAt: '2024-01-01',
-    roles: [
-      { id: 'r-1', name: 'Cyber Runner', ageRange: '18-25', gender: 'Any', requirements: 'Action/Combat skills required.', deadline: '2024-12-30' },
-      { id: 'r-2', name: 'Memory Hacker', ageRange: '30-45', gender: 'Female', requirements: 'Subtle acting, tech-savvy look.', deadline: '2024-12-25' }
-    ]
-  }
+export const MOCK_TIERS: MemberTier[] = [
+  { id: 't1', name: 'Free', price: '$0', benefits: ['Public directory listing', 'Standard audition access', 'Limited merchant perks'] },
+  { id: 't2', name: 'Pro', price: '$199/yr', benefits: ['Priority auditions', '20% Equipment discounts', 'VFX Support eligibility', 'Verified badge'], recommended: true },
+  { id: 't3', name: 'Gold Agency', price: '$999/yr', benefits: ['Recruitment tools', 'GFA Partner Status', 'Featured placement', 'Legal consultation'] }
 ];
 
-export const MOCK_MERCHANTS: any[] = [
+export const MOCK_MERCHANTS: Merchant[] = [
   {
-    id: 'm-1',
-    userId: 'u-merchant',
-    name: 'The Spotlight Cafe',
-    logo: 'https://logo.clearbit.com/starbucks.com',
-    category: 'Dining',
-    description: 'The preferred hangout for the GFA community in Hollywood.',
-    address: '123 Hollywood Blvd',
+    id: 'm1',
+    name: 'Hollywood Lens Rental',
+    category: 'Equipment',
+    address: 'Sunset Blvd, CA',
+    benefit: '15% Off All Rentals',
+    eligibility: 'Pro & Gold Members',
+    country: 'USA',
+    state: 'CA',
     city: 'Los Angeles',
-    isVerified: true,
-    partnershipLevel: 'PREMIUM',
-    deals: [
-      { id: 'd-1', merchantId: 'm-1', title: 'Actor Fuel: 20% Off', description: 'Show your Pro membership at checkout.', tierRequired: MembershipTier.PRO, expiresAt: '2025-12-31', code: 'GFAPRO20' }
-    ]
+    logo: 'https://picsum.photos/seed/lens/100/100'
   }
 ];
 
-export const MOCK_CERTS: any[] = [
-  {
-    id: 'cert-1',
-    type: CertType.TALENT_CERT,
-    ownerId: 'u-1',
-    status: CertStatus.APPROVED,
-    certNo: 'GFA-T-2024-001',
-    issuedAt: '2024-01-15',
-    expiresAt: '2025-01-15',
-    qrUrl: 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=GFA-T-2024-001',
-    verificationSlug: 'alex-chen-verified'
-  }
+export const MOCK_EVENTS: GFAEvent[] = [
+  { id: 'e1', title: 'Global Debut Film Festival', date: 'Oct 2024', type: 'Screening', image: 'https://picsum.photos/seed/film1/600/400', description: 'Premiering debut features from global emerging creators.' },
+  { id: 'e2', title: 'Cinematography Masterclass', date: 'Nov 2024', type: 'Workshop', image: 'https://picsum.photos/seed/film2/600/400', description: 'Intensive workshop led by industry-leading directors of photography.' }
 ];

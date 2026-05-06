@@ -1,8 +1,5 @@
 {
-  "name": "GFA Platform",
-  "description": "Global Film/Acting Platform - A complete ecosystem for talent, productions, agencies, and merchants with certification and audition management.",
-  "requestFramePermissions": [
-    "camera",
-    "geolocation"
-  ]
+  "name": "GFA Global Film Alliance",
+  "description": "Official institutional platform for the Global Film Alliance. Certified industry standards for film professionals.",
+  "requestFramePermissions": []
 }

@@ -2,41 +2,254 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GFA Platform</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #000;
-      color: #fff;
-    }
-    .text-gold { color: #D4AF37; }
-    .bg-gold { background-color: #D4AF37; }
-    .border-gold { border-color: #D4AF37; }
-    .hover-gold:hover { color: #F5E050; }
-    
-    /* Custom Scrollbar */
-    ::-webkit-scrollbar { width: 6px; }
-    ::-webkit-scrollbar-track { background: #111; }
-    ::-webkit-scrollbar-thumb { background: #333; border-radius: 10px; }
-    ::-webkit-scrollbar-thumb:hover { background: #D4AF37; }
-  </style>
-<script type="importmap">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFA Global Film Alliance | Professional Industry Support</title>
+    <meta name="description" content="The Global Film Alliance (GFA) provides voluntary industry standards, youth safeguarding guidelines, and professional support networks.">
+
+    <link rel="canonical" href="https://www.gfaalliance.org/" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gfa: {
+                            warmWhite: '#FAFAF8',
+                            inkBlack: '#0B0B0C',
+                            gold: '#C9A24D',
+                            goldDark: '#B88A2A',
+                            slate: '#6B7280',
+                            border: '#E6E7EA',
+                            grayLight: '#D1D5DB'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'Noto Sans SC', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    borderRadius: {
+                        'card': '16px',
+                        'btn': '12px'
+                    },
+                    animation: {
+                        'fade-up': 'fadeUp 0.8s ease-out forwards',
+                        'fade-in': 'fadeIn 1.2s ease-out forwards',
+                        'shimmer': 'shimmer 3s linear infinite',
+                    },
+                    keyframes: {
+                        fadeUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        shimmer: {
+                            '0%': { backgroundPosition: '200% center' },
+                            '100%': { backgroundPosition: '-200% center' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :root {
+          --warm-white: #FAFAF8;
+          --ink-black: #0B0B0C;
+          --gold: #C9A24D;
+          --border: #E6E7EA;
+        }
+
+        body {
+            background-color: var(--warm-white);
+            color: var(--ink-black);
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            line-height: 1.6;
+        }
+
+        ::selection {
+            background: rgba(201, 162, 77, 0.2);
+            color: var(--ink-black);
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Section Spacing - Mandatory 96px */
+        section {
+            padding-top: 96px;
+            padding-bottom: 96px;
+        }
+
+        /* Fixed Container 1200px */
+        .container-gfa {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Institutional Buttons */
+        .btn-primary {
+            background-color: var(--gold);
+            color: var(--ink-black);
+            font-weight: 600;
+            height: 48px;
+            padding: 0 2rem;
+            font-size: 16px;
+            border-radius: 12px;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            white-space: nowrap;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-primary:hover {
+            background-color: #B88A2A;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px -10px rgba(201, 162, 77, 0.4);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--ink-black);
+            font-weight: 600;
+            height: 48px;
+            padding: 0 2rem;
+            font-size: 16px;
+            border-radius: 12px;
+            border: 1px solid var(--ink-black);
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            white-space: nowrap;
+        }
+        .btn-secondary:hover {
+            background-color: var(--ink-black);
+            color: white;
+        }
+
+        .btn-secondary-white {
+            background-color: transparent;
+            color: white;
+            font-weight: 600;
+            height: 48px;
+            padding: 0 2rem;
+            font-size: 16px;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.3);
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-secondary-white:hover {
+            border-color: white;
+            background-color: rgba(255,255,255,0.05);
+        }
+
+        .btn-tertiary {
+            color: var(--ink-black);
+            font-weight: 600;
+            font-size: 15px;
+            text-decoration: none;
+            position: relative;
+            padding-bottom: 2px;
+            transition: color 0.3s ease;
+        }
+        .btn-tertiary::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: var(--ink-black);
+            transition: width 0.3s ease;
+        }
+        .btn-tertiary:hover::after {
+            width: 100%;
+        }
+
+        .nav-link {
+            font-size: 15px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .gold-badge {
+            display: inline-block;
+            background: rgba(201, 162, 77, 0.1);
+            color: var(--gold);
+            border: 1px solid rgba(201, 162, 77, 0.2);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        .card-standard {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+        .card-standard:hover {
+            border-color: var(--gold);
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px -15px rgba(0,0,0,0.05);
+        }
+
+        /* Subtle Noise Texture */
+        .bg-noise {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 50;
+            opacity: 0.035;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--warm-white); }
+        ::-webkit-scrollbar-thumb { background: #D1D5DB; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+    </style>
+    <script type="importmap">
 {
   "imports": {
-    "react/": "https://esm.sh/react@^19.2.4/",
-    "react": "https://esm.sh/react@^19.2.4",
+    "react": "https://esm.sh/react@18.3.1",
+    "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
     "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "@google/genai": "https://esm.sh/@google/genai@^1.39.0",
-    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0"
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.4"
   }
 }
 </script>
 </head>
 <body>
-  <div id="root"></div>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>

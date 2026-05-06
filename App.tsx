@@ -1,86 +1,57 @@
 
-import React, { useState, useEffect } from 'react';
-import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { LocaleProvider } from './LocaleContext';
 import Layout from './components/Layout';
-import Auth from './pages/Auth';
-import Dashboard from './pages/Dashboard';
-import AuditionOS from './pages/AuditionOS';
-import Perks from './pages/Perks';
-import TalentDB from './pages/TalentDB';
-import CertificationCenter from './pages/CertificationCenter';
-import MerchantPortal from './pages/MerchantPortal';
-import ProductionPanel from './pages/ProductionPanel';
-import { User, UserRole } from './types';
-import { api } from './services/api';
 
-const App: React.FC = () => {
-  const [user, setUser] = useState<User | null>(null);
-  const [loading, setLoading] = useState(true);
+// Pages
+import Home from './pages/Home';
+import About from './pages/About';
+import FilmmakerSupport from './pages/FilmmakerSupport';
+import YouthPrograms from './pages/YouthPrograms';
+import FamilyGuide from './pages/FamilyGuide';
+import Awards from './pages/Awards';
+import Competition from './pages/Competition';
+import Impact from './pages/Impact';
+import News from './pages/News';
+import GetInvolved from './pages/GetInvolved';
+import Donate from './pages/Donate';
+import Contact from './pages/Contact';
+import YouthProtection from './pages/YouthProtection';
 
-  useEffect(() => {
-    api.getCurrentUser().then(u => {
-      setUser(u);
-      setLoading(false);
-    });
-  }, []);
+// Policy Pages
+import PolicyPage from './pages/PolicyPage';
 
-  const handleLogin = async (email: string, role: UserRole) => {
-    const u = await api.login(email, role);
-    setUser(u);
-  };
-
-  const handleLogout = () => {
-    api.logout();
-    setUser(null);
-  };
-
-  if (loading) return null;
-
+function App() {
   return (
-    <Router>
-      <Layout user={user} onLogout={handleLogout}>
-        <Routes>
-          <Route 
-            path="/" 
-            element={user ? <Dashboard user={user} /> : <Navigate to="/auth" />} 
-          />
-          <Route 
-            path="/auth" 
-            element={user ? <Navigate to="/" /> : <Auth onLogin={handleLogin} />} 
-          />
-          <Route 
-            path="/projects" 
-            element={user ? <AuditionOS user={user} /> : <Navigate to="/auth" />} 
-          />
-          <Route 
-            path="/perks" 
-            element={user ? <Perks user={user} /> : <Navigate to="/auth" />} 
-          />
-          <Route 
-            path="/talents" 
-            element={user ? <TalentDB user={user} /> : <Navigate to="/auth" />} 
-          />
-          <Route 
-            path="/certs" 
-            element={user ? <CertificationCenter user={user} /> : <Navigate to="/auth" />} 
-          />
-          <Route 
-            path="/merchant-portal" 
-            element={user?.role === UserRole.MERCHANT ? <MerchantPortal user={user} /> : <Navigate to="/" />} 
-          />
-          <Route 
-            path="/production-panel" 
-            element={user?.role === UserRole.PRODUCTION ? <ProductionPanel user={user} /> : <Navigate to="/" />} 
-          />
-          <Route 
-            path="/admin" 
-            element={user?.role === UserRole.ADMIN ? <div className="text-center py-20">Admin Panel - Coming in V3</div> : <Navigate to="/" />} 
-          />
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
-      </Layout>
-    </Router>
+    <LocaleProvider>
+      <BrowserRouter>
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/filmmaker-support" element={<FilmmakerSupport />} />
+            <Route path="/youth-programs" element={<YouthPrograms />} />
+            <Route path="/family-guide" element={<FamilyGuide />} />
+            <Route path="/awards" element={<Awards />} />
+            <Route path="/competition" element={<Competition />} />
+            <Route path="/impact" element={<Impact />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/get-involved" element={<GetInvolved />} />
+            <Route path="/donate" element={<Donate />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/youth-protection" element={<YouthProtection />} />
+            
+            {/* Policy Routes */}
+            <Route path="/policy/privacy" element={<PolicyPage type="privacy" />} />
+            <Route path="/policy/terms" element={<PolicyPage type="terms" />} />
+            <Route path="/policy/consent" element={<PolicyPage type="consent" />} />
+            <Route path="/policy/content" element={<PolicyPage type="content" />} />
+          </Routes>
+        </Layout>
+      </BrowserRouter>
+    </LocaleProvider>
   );
-};
+}
 
 export default App;
