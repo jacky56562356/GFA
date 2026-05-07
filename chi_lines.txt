@@ -1,0 +1,707 @@
+pages/Impact.tsx:28:            {isEn ? "Real Change." : "真实的改变，"}<br/>
+pages/Impact.tsx:29:            <span className="text-[#C9A84C]">{isEn ? "Real People." : "真实的人。"}</span>
+pages/Impact.tsx:39:              {isEn ? "Our Footprint" : "我们的足迹"}
+pages/Impact.tsx:42:              {isEn ? "Measuring What Matters" : "我们如何衡量成功"}
+pages/Impact.tsx:49:              <p className="text-sm font-bold uppercase tracking-widest text-[#C9A84C] mb-2">{isEn ? "Child Performers" : "参演儿童"}</p>
+pages/Impact.tsx:50:              <p className="text-xs text-gfa-slate font-light">{isEn ? "Youth engaged in our programs." : "参与夏令营及电影项目"}</p>
+pages/Impact.tsx:54:              <p className="text-sm font-bold uppercase tracking-widest text-[#C9A84C] mb-2">{isEn ? "Award Winners" : "好莱坞获奖"}</p>
+pages/Impact.tsx:55:              <p className="text-xs text-gfa-slate font-light">{isEn ? "Recognized at Golden Feather." : "被行业专业评审表彰"}</p>
+pages/Impact.tsx:59:              <p className="text-sm font-bold uppercase tracking-widest text-[#C9A84C] mb-2">{isEn ? "Films Distributed" : "发行的影片"}</p>
+pages/Impact.tsx:60:              <p className="text-xs text-gfa-slate font-light">{isEn ? "Active on major streaming platforms." : "在主流流媒体平台上线"}</p>
+pages/Impact.tsx:64:              <p className="text-sm font-bold uppercase tracking-widest text-[#C9A84C] mb-2">{isEn ? "Global Views" : "全球播放量"}</p>
+pages/Impact.tsx:65:              <p className="text-xs text-gfa-slate font-light">{isEn ? "Audience reach of youth films." : "覆盖全球数字平台观众"}</p>
+pages/Impact.tsx:75:             {isEn ? "Financial Transparency" : "资金透明度声明"}
+pages/Impact.tsx:80:                 <span className="text-sm uppercase tracking-widest font-bold text-white/80">{isEn ? "Filmmaker Support & Youth Programs" : "电影人支持与青少年项目"}</span>
+pages/Impact.tsx:85:                 <span className="text-sm uppercase tracking-widest font-bold text-white/80">{isEn ? "Scholarships for Low-Income Families" : "奖学金与低收入家庭资助"}</span>
+pages/Impact.tsx:90:                 <span className="text-sm uppercase tracking-widest font-bold text-white/40">{isEn ? "Admin & Operations" : "行政运营"}</span>
+pages/Impact.tsx:97:                <h4 className="font-bold text-lg">{isEn ? "Our Promise to Donors" : "我们的承诺"}</h4>
+pages/Impact.tsx:102:                  : "作为注册的 501(c)(3) 非营利机构，公信力是我们的基石。我们每年发布详尽的财务报告，确保每一分钱都有明确的记录去向。你的捐赠直接驱动了艺术的发生。"}
+pages/Impact.tsx:104:              <button className="underline text-[#C9A84C] text-sm hover:text-white transition-colors">{isEn ? "Download 2024 Annual Report (PDF)" : "下载 2024 年度报告 (PDF)"}</button>
+pages/Impact.tsx:113:              <h2 className="text-3xl font-bold font-serif text-gfa-inkBlack">{isEn ? "The Faces of Change" : "每一个真实的故事"}</h2>
+pages/Impact.tsx:123:                   <div className="text-xs font-bold text-[#C9A84C] uppercase tracking-widest mb-2">{isEn ? "Career Support" : "就业扶持计划"}</div>
+pages/Impact.tsx:126:                     "{isEn ? "I was working two retail jobs after film school just to survive. GFA connected me with my mentor, who got me my first PA gig on a real union set." : "电影学院毕业后为了生存我在做两份零售工作。是GFA给我匹配了导师，让我接到了真正的工会剧组的第一个PA职位。"}"
+pages/Impact.tsx:137:                   <div className="text-xs font-bold text-[#C9A84C] uppercase tracking-widest mb-2">{isEn ? "Youth Camp" : "影视夏令营"}</div>
+pages/Impact.tsx:140:                     "{isEn ? "The full scholarship changed everything. Watching Sophia direct her short film gave her a level of confidence we had never seen before." : "全额奖学金改变了一切。看着女儿在片场自信地当导演，那是我们在她身上从未见过的光芒。"}"
+pages/Impact.tsx:151:                   <div className="text-xs font-bold text-[#C9A84C] uppercase tracking-widest mb-2">{isEn ? "Golden Feather" : "金羽奖获奖者"}</div>
+pages/Impact.tsx:154:                     "{isEn ? "Winning Best Screenplay meant my voice actually mattered. It's the validation I carry into every single writing session now." : "赢得最佳剧本奖意味着我的声音是有人在乎的。这份肯定我现在写每一个剧本时都带在心中。"}"
+pages/Impact.tsx:166:              <h2 className="text-3xl font-bold font-serif text-gfa-inkBlack mb-4">{isEn ? "Films Distributed" : "已发行的优秀影片"}</h2>
+pages/Impact.tsx:167:              <p className="text-gfa-slate font-light">{isEn ? "Available now on major streaming platforms." : "可以在流媒体平台上观看我们的作品。"}</p>
+pages/Impact.tsx:180:                     <h3 className="text-2xl font-bold font-serif mb-2">Garden <span className="font-sans font-light">/ 花园</span></h3>
+pages/Impact.tsx:182:                       {isEn ? "Winner: Best Family Film (Golden State Film Festival)" : "荣获 Golden State Film Festival 最佳家庭电影"}
+pages/Impact.tsx:202:                       {isEn ? "Official Selection: Independent Youth Fest" : "官方入选：独立青年电影节"}
+pages/PolicyPage.tsx:17:        title: isEn ? "Privacy Policy" : "隐私政策",
+pages/PolicyPage.tsx:20:          : "本隐私政策说明了全球电影联盟 (“GFA”、“我们”或“我们的”) 如何收集、使用和分享您的个人信息，并解释了您对您的数据享有的权利以及如何联系我们。",
+pages/PolicyPage.tsx:29:          "1. 我们收集的信息": "当您参与我们的项目、订阅新闻或访问我们的网站时，我们可能会收集您的姓名、电子邮件地址、电话号码及其他详细信息。我们还会自动收集特定的设备和使用信息，包括IP地址、Cookie和浏览活动。",
+pages/PolicyPage.tsx:30:          "2. 我们如何使用您的信息": "我们使用收集的信息来运营和改善我们的网站、提供服务、与您沟通、处理捐款以及个性化您的体验。我们也可能将您的数据用于营销和定向广告。",
+pages/PolicyPage.tsx:31:          "3. Cookie 和广告 (Google AdSense)": "我们使用 Cookie 及类似技术来增强用户体验并展示相关广告。包括 Google 在内的第三方供应商使用 Cookie 来根据您之前对我们网站或其他网站的访问投放广告。Google 及其合作伙伴使用广告 Cookie，使其能够根据您对我们网站和/或互联网上其他网站的访问向您提供广告。您可以访问 Google 广告设置 (Ads Settings) 选择停用个性化广告。",
+pages/PolicyPage.tsx:32:          "4. 第三方链接及供应商": "我们的网站可能包含由第三方供应商提供的广告。您可以访问 www.aboutads.info 选择停用部分第三方供应商对个性化广告 Cookie 的使用。我们的网站也可能包含指向其他网站的链接。我们对这些其他网站的隐私惯例不承担责任。",
+pages/PolicyPage.tsx:33:          "5. 您的权利": "根据您所在的地区，您可能有权访问、更正、删除或限制使用您的个人数据。如需行使这些权利，请联系 jacky@gfafilm.org。",
+pages/PolicyPage.tsx:34:          "6. 政策变更": "我们可能会不时更新本隐私政策。更新后的版本将通过更新的“最后更新”日期注明，更新后的版本在访问时即刻生效。"
+pages/PolicyPage.tsx:39:        title: isEn ? "Terms of Service" : "服务条款",
+pages/PolicyPage.tsx:42:          : "欢迎访问全球电影联盟。访问本网站即表示您同意遵守以下条款和条件。",
+pages/PolicyPage.tsx:51:          "1. 接受条款": "通过访问或使用我们的网站、项目或服务，您同意受这些服务条款的法律约束。如果您不同意这些条款，请勿使用我们的网站。",
+pages/PolicyPage.tsx:52:          "2. 网站使用": "您同意仅出于合法目的使用本网站。您不得以侵犯他人权利或限制、阻碍他人使用和享受本网站的方式使用本网站。",
+pages/PolicyPage.tsx:53:          "3. 知识产权": "本网站上的所有内容，包括文本、图形、徽标、图像和软件，均为全球电影联盟或其内容供应商的财产，受版权和其他知识产权法律保护。",
+pages/PolicyPage.tsx:54:          "4. 免责声明和责任限制": "本网站按“原样”和“可用”基础提供，无任何声明或保证。全球电影联盟对因使用本网站或与使用本网站相关的任何间接、特殊或结果性损失或损害概不负责。",
+pages/PolicyPage.tsx:55:          "5. 其他网站链接": "我们的网站可能包含非由全球电影联盟所有或控制的第三方网站或服务的链接。我们对任何第三方网站或服务的内容、隐私政策或惯例无法控制，也不承担任何责任。",
+pages/PolicyPage.tsx:56:          "6. 管辖法律": "本条款受美国加利福尼亚州法律管辖并据其解释，不考虑其冲突法条款。"
+pages/PolicyPage.tsx:63:      title: isEn ? "Policies" : "政策与规定",
+pages/PolicyPage.tsx:64:      summary: isEn ? "Global Film Alliance policies and guidelines." : "全球电影联盟政策与指南。",
+pages/PolicyPage.tsx:68:        "一般说明": "请访问具体的政策页面以获取更多详细信息。"
+pages/PolicyPage.tsx:97:          {isEn ? "Last Updated: May 2026 • Global Compliance Office" : "最后更新：2026年5月 • 全球合规办公室"}
+pages/ProgramDiverseEthnicity.tsx:26:            {isEn ? "The Future of Film is Here — Are You Ready?" : "影视的未来已来——你准备好了吗？"}
+pages/ProgramDiverseEthnicity.tsx:36:               : "了解AI工具如何改变剧本创作、视觉特效、剪辑和美术设计。GFA的AI影视制作培训为下一代电影人迎接未来的工业时代做好准备。"}
+pages/ProgramDiverseEthnicity.tsx:42:            {isEn ? "Curriculum Overview" : "课程内容"}
+pages/ProgramDiverseEthnicity.tsx:48:                 {isEn ? "AI Scriptwriting Tools" : "AI剧本创作工具"}
+pages/ProgramDiverseEthnicity.tsx:51:                 {isEn ? "Leveraging LLMs for brainstorming, structuring narratives, and dialogue generation while maintaining human creativity." : "利用大语言模型进行头脑风暴、构建叙事结构和生成对话，同时保持人类的创造力。"}
+pages/ProgramDiverseEthnicity.tsx:58:                 {isEn ? "AI Visual Effects & Image Generation" : "AI视觉特效与图像生成"}
+pages/ProgramDiverseEthnicity.tsx:61:                 {isEn ? "Creating storyboards and pre-viz using text-to-image models, and integrating AI into the VFX pipeline." : "使用文本生成图像模型创建分镜头脚本和视觉预览，并将AI集成到VFX流程中。"}
+pages/ProgramDiverseEthnicity.tsx:68:                 {isEn ? "AI-Assisted Editing" : "AI辅助剪辑"}
+pages/ProgramDiverseEthnicity.tsx:71:                 {isEn ? "Automating rough cuts, audio sync, and color grading using intelligent editing software." : "使用智能剪辑软件实现粗剪、音频同步和色彩调级的自动化。"}
+pages/ProgramDiverseEthnicity.tsx:78:                 {isEn ? "AI in Production Design" : "AI美术与场景设计"}
+pages/ProgramDiverseEthnicity.tsx:81:                 {isEn ? "Rapid iteration of set designs, lighting plans, and costume concepts using generative AI." : "利用生成式AI快速迭代布景设计、照明方案和服装概念。"}
+pages/ProgramDiverseEthnicity.tsx:91:                {isEn ? "Who is this for?" : "适合人群"}
+pages/ProgramDiverseEthnicity.tsx:96:                 : "专为14岁以上的年轻电影制作人、科技爱好者和故事创作者设计。无需任何编程经验。"}
+pages/ProgramDiverseEthnicity.tsx:99:                {isEn ? "Join the Waitlist" : "加入候补名单"}
+pages/FamilyGuide.tsx:26:    { q: "孩子喜欢电影，但我不确定这是不是一条好的职业道路？", a: "影视娱乐业是美国最大的出口产业之一，对从创作、技术到商业的各个领域都有巨大的人才需求。只要规划得当，这是一条极为可行且前景广阔的职业道路。" },
+pages/FamilyGuide.tsx:27:    { q: "学影视需要很多钱吗？", a: "可能需要，但并非必须。GFA的存在正是为了抵消这些成本。我们提供免费的设备借用、导师指导和丰厚的奖学金，确保才华比财富更重要。" },
+pages/FamilyGuide.tsx:28:    { q: "孩子应该读什么专业？", a: "这完全取决于他们的具体兴趣。他们不一定非要学“电影制作”。许多顶尖制片人学的是商科；优秀的摄影师可能学的是物理或美术。我们提供一对一咨询帮助您理清这一点。" },
+pages/FamilyGuide.tsx:29:    { q: "来自中国的家庭，如何帮助孩子在美国影视圈发展？", a: "尽早理解美国的行业体系非常重要。好莱坞完全依赖工会结构、被验证的履历网络。GFA作为桥梁，为中国家庭提供建立真正好莱坞事业所需的精确路线图。" },
+pages/FamilyGuide.tsx:30:    { q: "GFA的项目费用是多少？有没有资助？", a: "各项目费用不同，但作为非营利组织，盈利不是我们的目的。我们为中低收入家庭提供高达100%费用的奖学金。" },
+pages/FamilyGuide.tsx:31:    { q: "孩子没有任何基础，可以从GFA的项目开始吗？", a: "完全可以。我们6-10岁的项目无需任何基础。我们在无压力的环境中，纯粹专注于点燃他们的热情和创造力。" },
+pages/FamilyGuide.tsx:32:    { q: "全球才艺大赛对孩子的未来有帮助吗？", a: "极其有帮助。在杜比剧院角逐、获得受认可的美国501(c)(3)机构背书、并在行业评委面前展示才华——这些对大学申请和吸引经纪人来说都是极具含金量的履历。" },
+pages/FamilyGuide.tsx:33:    { q: "如何预约和GFA团队的一对一咨询？", a: "只需点击页面底部的“预约免费咨询”按钮，我们团队会与您安排专门的时间深入探讨您孩子的具体情况。" }
+pages/FamilyGuide.tsx:53:            {isEn ? "Your Child Dreams of Film." : "您的孩子想从事电影行业？"}<br/>
+pages/FamilyGuide.tsx:54:            <span className="text-[#C9A84C] mt-2 block">{isEn ? "Let's Build the Path Together." : "我们帮您规划这条路。"}</span>
+pages/FamilyGuide.tsx:65:               : "我们知道很多家长的担忧：影视行业竞争激烈，这条路真的可以走吗？孩子应该从什么时候开始准备？我们需要花多少钱？有什么具体的方向可以选择？这个页面，专门为您解答这些问题。"}
+pages/FamilyGuide.tsx:75:              {isEn ? "Understanding Industry Roles" : "影视行业职业路径说明"}
+pages/FamilyGuide.tsx:78:              {isEn ? "It's not just 'being a director'. The industry offers a vast array of specialized, highly-skilled professions." : "不仅限于是制片人或者导演，影视行业拥有各种各样专业化、对技术要求极高的职业分支。"}
+pages/FamilyGuide.tsx:84:                <h3 className="font-bold font-serif text-xl border-b-2 border-[#C9A84C] pb-2 inline-block mb-4 text-gfa-inkBlack">{isEn ? "Creative" : "创作类"}</h3>
+pages/FamilyGuide.tsx:86:                  <strong className="text-gfa-inkBlack font-bold">{isEn ? "Roles: " : "职位："}</strong>{isEn ? "Director, Screenwriter, Cinematographer" : "导演、编剧、摄影师"}<br/><br/>
+pages/FamilyGuide.tsx:87:                  {isEn ? "The visionaries who craft the emotional core and visual style of the story." : "塑造故事的情感核心和视觉风格的远见者。"}
+pages/FamilyGuide.tsx:92:                <h3 className="font-bold font-serif text-xl border-b-2 border-[#C9A84C] pb-2 inline-block mb-4 text-gfa-inkBlack">{isEn ? "Production" : "制作类"}</h3>
+pages/FamilyGuide.tsx:94:                  <strong className="text-gfa-inkBlack font-bold">{isEn ? "Roles: " : "职位："}</strong>{isEn ? "Producer, Production Designer, Editor" : "制片人、美术指导、剪辑师"}<br/><br/>
+pages/FamilyGuide.tsx:95:                  {isEn ? "The master organizers and builders who bring the script from paper to reality." : "将剧本从纸面转化为现实的组织者和执行领袖。"}
+pages/FamilyGuide.tsx:100:                <h3 className="font-bold font-serif text-xl border-b-2 border-[#C9A84C] pb-2 inline-block mb-4 text-gfa-inkBlack">{isEn ? "Technical" : "技术类"}</h3>
+pages/FamilyGuide.tsx:102:                  <strong className="text-gfa-inkBlack font-bold">{isEn ? "Roles: " : "职位："}</strong>{isEn ? "VFX Artist, Sound Designer, Colorist" : "特效师、声音设计、调色师"}<br/><br/>
+pages/FamilyGuide.tsx:103:                  {isEn ? "The highly specialized experts who perfect the immersive experience." : "完善沉浸式视听体验的高精尖技术专家。"}
+pages/FamilyGuide.tsx:108:                <h3 className="font-bold font-serif text-xl border-b-2 border-[#C9A84C] pb-2 inline-block mb-4 text-gfa-inkBlack">{isEn ? "Emerging (Tech)" : "新兴类"}</h3>
+pages/FamilyGuide.tsx:110:                  <strong className="text-gfa-inkBlack font-bold">{isEn ? "Roles: " : "职位："}</strong>{isEn ? "AI Filmmaker, Interactive Content Dir." : "AI影视创作者、内容总监"}<br/><br/>
+pages/FamilyGuide.tsx:111:                  {isEn ? "The pioneers utilizing artificial intelligence to revolutionize pipelines." : "利用人工智能重塑工作流的科技前沿开拓者。"}
+pages/FamilyGuide.tsx:116:                <h3 className="font-bold font-serif text-xl border-b-2 border-[#C9A84C] pb-2 inline-block mb-4 text-gfa-inkBlack">{isEn ? "Business" : "商业类"}</h3>
+pages/FamilyGuide.tsx:118:                  <strong className="text-gfa-inkBlack font-bold">{isEn ? "Roles: " : "职位："}</strong>{isEn ? "Distribution, Marketing, IP Law" : "发行、营销、版权律师"}<br/><br/>
+pages/FamilyGuide.tsx:119:                  {isEn ? "The strategists who ensure the art makes money and reaches the audience." : "确保作品能够盈利并触达观众的商业策略师。"}
+pages/FamilyGuide.tsx:131:                {isEn ? "Development Strategy by Age" : "按年龄的培养建议"}
+pages/FamilyGuide.tsx:140:                    <Map className="text-[#C9A84C] w-6 h-6"/> {isEn ? "Exploration Phase" : "探索期"}
+pages/FamilyGuide.tsx:144:                      <strong className="font-bold text-gfa-inkBlack block mb-1">{isEn ? "Goal:" : "培养目标："}</strong>
+pages/FamilyGuide.tsx:145:                      {isEn ? "Love for cinema, keen observation, boundless creativity." : "爱上电影、培养观察力与无边的创造力"}
+pages/FamilyGuide.tsx:148:                      <strong className="font-bold text-[#C9A84C] block mb-1">{isEn ? "GFA Provides:" : "GFA提供："}</strong>
+pages/FamilyGuide.tsx:149:                      {isEn ? "Summer Camps (Foundational), Community Screenings." : "夏令营（基础班）、社区电影放映"}
+pages/FamilyGuide.tsx:152:                      <strong className="font-bold text-gfa-inkBlack block mb-1">{isEn ? "What Parents Can Do:" : "家长可以做："}</strong>
+pages/FamilyGuide.tsx:153:                      {isEn ? "Take them to diverse films, encourage them to tell bedtime stories, give them a simple camera to play with." : "多带孩子看不同类型的电影，鼓励他们讲故事，给他们一个简单的相机玩耍。"}
+pages/FamilyGuide.tsx:162:                    <Compass className="text-[#C9A84C] w-6 h-6"/> {isEn ? "Development Phase" : "发展期"}
+pages/FamilyGuide.tsx:166:                      <strong className="font-bold text-gfa-inkBlack block mb-1">{isEn ? "Goal:" : "培养目标："}</strong>
+pages/FamilyGuide.tsx:167:                      {isEn ? "Master basic narrative creation; successfully complete their first real project." : "学会基本叙事创作，成功完成第一个真正的作品。"}
+pages/FamilyGuide.tsx:170:                      <strong className="font-bold text-[#C9A84C] block mb-1">{isEn ? "GFA Provides:" : "GFA提供："}</strong>
+pages/FamilyGuide.tsx:171:                      {isEn ? "Summer Camps (Advanced), Children's Film Project, Talent Competitions." : "夏令营（进阶班）、儿童梦想电影项目、才艺大赛。"}
+pages/FamilyGuide.tsx:174:                      <strong className="font-bold text-gfa-inkBlack block mb-1">{isEn ? "What Parents Can Do:" : "家长可以做："}</strong>
+pages/FamilyGuide.tsx:175:                      {isEn ? "Support them shooting videos on a smartphone, encourage entering local contests, validate their artistic attempts." : "支持孩子用手机拍短视频，鼓励参加比赛，肯定他们的艺术尝试。"}
+pages/FamilyGuide.tsx:184:                    <BookOpen className="text-[#C9A84C] w-6 h-6"/> {isEn ? "Specialization Phase" : "定向期"}
+pages/FamilyGuide.tsx:188:                      <strong className="font-bold text-gfa-inkBlack block mb-1">{isEn ? "Goal:" : "培养目标："}</strong>
+pages/FamilyGuide.tsx:189:                      {isEn ? "Build a robust college portfolio, narrow down a specific career track." : "建立有竞争力的大学申请作品集，确定具体的职业方向。"}
+pages/FamilyGuide.tsx:192:                      <strong className="font-bold text-[#C9A84C] block mb-1">{isEn ? "GFA Provides:" : "GFA提供："}</strong>
+pages/FamilyGuide.tsx:193:                      {isEn ? "Hollywood Career Training, AI Filmmaking Courses, Golden Feather Awards submissions." : "好莱坞职业培训、AI影视课程、申请金羽奖评选。"}
+pages/FamilyGuide.tsx:196:                      <strong className="font-bold text-gfa-inkBlack block mb-1">{isEn ? "What Parents Can Do:" : "家长可以做："}</strong>
+pages/FamilyGuide.tsx:197:                      {isEn ? "Support their choice of a related college major, help them start networking, trust their focus." : "支持孩子选择相关的大学专业，帮助他们建立初步的行业联系，信任他们的专注。"}
+pages/FamilyGuide.tsx:206:                    <GraduationCap className="text-gfa-inkBlack w-6 h-6"/> {isEn ? "Professional Launcher" : "大学 / 毕业阶段"}
+pages/FamilyGuide.tsx:210:                      <strong className="font-bold text-[#C9A84C] block mb-1">{isEn ? "GFA Provides:" : "GFA提供："}</strong>
+pages/FamilyGuide.tsx:211:                      {isEn ? "Filmmaker Career Support, industry mentorship network, free professional gear rentals." : "新晋电影人就业扶持、行业导师网络推荐、免费专业设备借用。"}
+pages/FamilyGuide.tsx:223:             <h2 className="text-3xl font-bold font-serif text-[#C9A84C]">{isEn ? "Frequently Asked Questions" : "家长常见问题 (FAQ)"}</h2>
+pages/FamilyGuide.tsx:252:             {isEn ? "Not Sure Where to Start?" : "不确定从哪里开始？"}<br/>
+pages/FamilyGuide.tsx:253:             <span className="text-[#C9A84C]">{isEn ? "Talk to us." : "和我们聊聊。"}</span>
+pages/FamilyGuide.tsx:256:             {isEn ? "The GFA team offers free, one-on-one parent consultations to help you understand the most suitable path for your talented child." : "GFA团队提供免费的一对一家长咨询，帮助您了解最适合孩子的艺术成长路径。"}
+pages/FamilyGuide.tsx:259:             {isEn ? "Book Free Consultation" : "预约免费咨询"}
+pages/YouthPrograms.tsx:28:            {isEn ? "Planting the Seed of a" : "为下一代电影人"}<br/>
+pages/YouthPrograms.tsx:29:            <span className="text-[#C9A84C]">{isEn ? "Filmmaker's Dream" : "种下梦想的种子"}</span>
+pages/YouthPrograms.tsx:39:              <Tent className="w-5 h-5"/> {isEn ? "Youth Film Summer Camp" : "影视夏令营"}
+pages/YouthPrograms.tsx:42:              {isEn ? "From First Frame to Premiere" : "从最初的画面到最终的首映"}
+pages/YouthPrograms.tsx:47:                : "第一天：从未摸过摄影机，紧张又期待。最后一天：坐在观众席，看着自己导演的短片第一次公映，感受观众的掌声。这不仅仅是一个夏令营，这是一条清晰的职业成长路径的起点。"}
+pages/YouthPrograms.tsx:53:              <h4 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-6">{isEn ? "2026 Camp Details" : "2026年营地信息"}</h4>
+pages/YouthPrograms.tsx:72:                    <strong className="block font-bold text-gfa-inkBlack mb-1">{isEn ? "Ages" : "年龄"}</strong>
+pages/YouthPrograms.tsx:73:                    6–17 {isEn ? " years old" : "岁"}
+pages/YouthPrograms.tsx:79:                    <strong className="block font-bold text-gfa-inkBlack mb-1">{isEn ? "Location" : "地点"}</strong>
+pages/YouthPrograms.tsx:86:                    <strong className="block font-bold text-gfa-inkBlack mb-1">{isEn ? "Gear" : "使用设备"}</strong>
+pages/YouthPrograms.tsx:87:                    {isEn ? "Professional Blackmagic Design cameras used by Hollywood directors." : "使用Blackmagic Design专业设备（和好莱坞导演用同款）"}
+pages/YouthPrograms.tsx:94:              <h4 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-6">{isEn ? "Curriculum Modules" : "课程内容"}</h4>
+pages/YouthPrograms.tsx:97:                    <h5 className="font-bold text-gfa-inkBlack mb-1">{isEn ? "1. Screenwriting" : "1. 剧本创作"}</h5>
+pages/YouthPrograms.tsx:98:                    <p className="text-sm font-light text-gfa-slate">{isEn ? "Find the stories that only you can tell." : "找到只有你才能讲的故事"}</p>
+pages/YouthPrograms.tsx:101:                    <h5 className="font-bold text-gfa-inkBlack mb-1">{isEn ? "2. Cinematography" : "2. 摄影技术"}</h5>
+pages/YouthPrograms.tsx:102:                    <p className="text-sm font-light text-gfa-slate">{isEn ? "Learn to express emotion through lenses and lighting." : "学会用光和镜头表达情感"}</p>
+pages/YouthPrograms.tsx:105:                    <h5 className="font-bold text-gfa-inkBlack mb-1">{isEn ? "3. Acting" : "3. 表演指导"}</h5>
+pages/YouthPrograms.tsx:106:                    <p className="text-sm font-light text-gfa-slate">{isEn ? "Find your authentic self in front of the camera." : "在镜头前找到真实的自己"}</p>
+pages/YouthPrograms.tsx:109:                    <h5 className="font-bold text-gfa-inkBlack mb-1">{isEn ? "4. Post-Production" : "4. 剪辑后期"}</h5>
+pages/YouthPrograms.tsx:110:                    <p className="text-sm font-light text-gfa-slate">{isEn ? "Transform scattered clips into a complete narrative." : "把零散的素材变成完整作品"}</p>
+pages/YouthPrograms.tsx:113:                    <h5 className="font-bold text-gfa-inkBlack mb-1">{isEn ? "5. Directing" : "5. 导演技巧"}</h5>
+pages/YouthPrograms.tsx:114:                    <p className="text-sm font-light text-gfa-slate">{isEn ? "Learn how to lead a team to tell a unified story." : "学会带领团队讲述故事"}</p>
+pages/YouthPrograms.tsx:117:                    <h5 className="font-bold text-gfa-inkBlack mb-1">{isEn ? "6. The Premiere" : "6. 作品展映"}</h5>
+pages/YouthPrograms.tsx:118:                    <p className="text-sm font-light text-gfa-slate">{isEn ? "Experience the thrill of a live audience watching your work." : "第一次看到观众看自己的作品"}</p>
+pages/YouthPrograms.tsx:129:                 {isEn ? "Talent shouldn't be limited by family income." : "才华，不应该被家庭收入所限制"}
+pages/YouthPrograms.tsx:134:                   : "我们为什么提供奖学金：为了确保所有对电影充满热情的孩子都有机会参与。我们为低收入家庭提供全额或部分费用减免。"}
+pages/YouthPrograms.tsx:138:                   {isEn ? "Register My Child" : "为我的孩子报名"}
+pages/YouthPrograms.tsx:141:                   {isEn ? "Sponsor a Child" : "资助一个孩子"}
+pages/YouthPrograms.tsx:163:                  <h3 className="text-2xl font-bold font-serif">{isEn ? "Children's Dream Film Project" : "儿童梦想电影项目"}</h3>
+pages/YouthPrograms.tsx:168:                  {isEn ? "We don't simulate—we actually produce and distribute. Every quarter, we produce a complete short film led entirely by youth." : "我们不模拟——我们真的制作，真的发行。每季度制作一部完整短片，全程由青少年主导。"}
+pages/YouthPrograms.tsx:171:                  <h4 className="font-bold text-gfa-inkBlack font-serif mb-2">{isEn ? "Case Study: 'Garden'" : "代表作：《花园 Garden》"}</h4>
+pages/YouthPrograms.tsx:173:                    <li>• {isEn ? "Winner: Best Family Film at Golden State Film Festival" : "Golden State Film Festival 最佳家庭电影"}</li>
+pages/YouthPrograms.tsx:174:                    <li>• {isEn ? "Distributed on Amazon Prime, YouTube, and Tubi" : "Amazon Prime / YouTube / Tubi 广泛发行"}</li>
+pages/YouthPrograms.tsx:176:                  <p className="text-xs italic text-gfa-slate">"{isEn ? "Seeing my name in the credits on Amazon Prime made me realize I want to do this forever." : "在亚马逊上看到我的名字出现在片尾字幕时，我觉得我找到了我一生的热爱。"}"</p>
+pages/YouthPrograms.tsx:180:                    {isEn ? "Enroll for Next Film" : "让我的孩子参与下一部"}
+pages/YouthPrograms.tsx:183:                    {isEn ? "Co-Produce" : "联合出品"}
+pages/YouthPrograms.tsx:198:                  <h3 className="text-2xl font-bold font-serif">{isEn ? "Film Therapy for Special Needs Youth" : "特殊需求儿童计划"}</h3>
+pages/YouthPrograms.tsx:203:                  {isEn ? "\"Film is just another language. For children with special needs, it might be their most powerful one.\"" : "“电影，是另一种语言。对于有特殊需求的孩子，它可能是最有力的语言。”"}
+pages/YouthPrograms.tsx:208:                    {isEn ? "Filmmaking therapy designed specifically for youth with autism, depression, and anxiety." : "专为自闭症、抑郁症、焦虑症儿童设计的影视创作疗愈课程"}
+pages/YouthPrograms.tsx:212:                    {isEn ? "Helping children find self-expression and connection through acting and camerawork." : "通过拍摄和表演帮助孩子表达自我"}
+pages/YouthPrograms.tsx:216:                    {isEn ? "Instructors with professional backgrounds in psychological counseling." : "有专业心理辅导背景的导师团队"}
+pages/YouthPrograms.tsx:220:                    {isEn ? "Small group settings ensuring a 1:3 teacher-to-student ratio." : "小班制，1:3师生比例"}
+pages/YouthPrograms.tsx:225:                    {isEn ? "Learn More" : "了解详情"}
+pages/YouthPrograms.tsx:228:                    {isEn ? "Book Consultation" : "预约咨询"}
+pages/YouthPrograms.tsx:242:             {isEn ? "Innovation Track" : "前沿科技"}
+pages/YouthPrograms.tsx:245:             {isEn ? "AI Filmmaking Training" : "AI影视制作培训"}
+pages/YouthPrograms.tsx:250:               : "当AI正在改变整个影视工业，我们不让下一代落在时代后面。"}
+pages/YouthPrograms.tsx:256:               <h4 className="font-bold text-gfa-inkBlack font-serif text-lg mb-2">{isEn ? "AI Screenwriting" : "AI剧本创作"}</h4>
+pages/YouthPrograms.tsx:258:                 {isEn ? "Mastering narrative generation workflows using ChatGPT and Claude." : "（ChatGPT、Claude等工具的创作流程）"}
+pages/YouthPrograms.tsx:263:               <h4 className="font-bold text-gfa-inkBlack font-serif text-lg mb-2">{isEn ? "Visual Gen & VFX" : "AI视觉生成与特效"}</h4>
+pages/YouthPrograms.tsx:265:                 {isEn ? "Creating mind-bending visuals with Midjourney, Runway, and Sora." : "（Midjourney、Runway、Sora等）"}
+pages/YouthPrograms.tsx:270:               <h4 className="font-bold text-gfa-inkBlack font-serif text-lg mb-2">{isEn ? "AI Editing" : "AI辅助剪辑"}</h4>
+pages/YouthPrograms.tsx:272:                 {isEn ? "Speeding up post-production using Descript and Adobe AI." : "（Descript、Adobe AI等）"}
+pages/YouthPrograms.tsx:277:               <h4 className="font-bold text-gfa-inkBlack font-serif text-lg mb-2">{isEn ? "AI Producing" : "AI制片与项目管理"}</h4>
+pages/YouthPrograms.tsx:279:                 {isEn ? "Automating breakdowns and scheduling with intelligent production tools." : "自动化剧本拆解与拍摄计划制定"}
+pages/YouthPrograms.tsx:285:             {isEn ? "Join the Waitlist" : "加入等候名单"} <ArrowRight className="w-4 h-4"/>
+pages/FilmmakerSupport.tsx:28:            {isEn ? "You Have the Talent." : "你有才华，"}<br/>
+pages/FilmmakerSupport.tsx:29:            <span className="text-[#C9A84C]">{isEn ? "We'll Help You Get Through the Door." : "我们帮你打开那扇门。"}</span>
+pages/FilmmakerSupport.tsx:40:              : "想象一个刚从电影学院毕业的人，作品集拿了满分。但他没有人脉，租不起昂贵的设备，甚至不知道该如何接到第一份工作。这个人的处境，以及横在他面前的那堵无形的墙，正是GFA存在的原因。"}
+pages/FilmmakerSupport.tsx:50:              {isEn ? "How We Help You Break In" : "我们帮你解决什么"}
+pages/FilmmakerSupport.tsx:61:                <h3 className="text-2xl font-bold font-serif mb-2">{isEn ? "Free Pro Gear Access" : "专业设备免费借用"}</h3>
+pages/FilmmakerSupport.tsx:65:                  <strong className="font-bold">{isEn ? "The Barrier: " : "障碍："}</strong>
+pages/FilmmakerSupport.tsx:66:                  {isEn ? "Professional cinema cameras cost hundreds of dollars a day to rent. Recent grads simply can't afford it." : "专业摄影机一天租金数百美元，刚毕业的电影人根本负担不起。"}
+pages/FilmmakerSupport.tsx:69:                  <strong className="font-bold">{isEn ? "GFA Solution: " : "GFA方案："}</strong>
+pages/FilmmakerSupport.tsx:70:                  {isEn ? "Through our Blackmagic Design partnership, we offer pro-level cameras, lighting, and audio gear for free or at radically reduced costs." : "通过 Blackmagic Design 合作，提供专业级摄影机、灯光、收音设备免费或低价借用。"}
+pages/FilmmakerSupport.tsx:73:                  {isEn ? "Details: Apply with your project plan. Upon approval, you can borrow gear for 2-4 weeks." : "具体说明：按项目申请，需提交作品计划，审核通过后可借用2-4周。"}
+pages/FilmmakerSupport.tsx:76:                  <button className="text-xs font-bold uppercase tracking-widest bg-gfa-inkBlack text-white px-6 py-2 rounded-full hover:bg-[#C9A84C] hover:shadow-md hover:-translate-y-0.5 active:bg-[#a68636] active:scale-95 transition-all duration-200">{isEn ? "Apply for Gear" : "申请设备借用"}</button>
+pages/FilmmakerSupport.tsx:87:                <h3 className="text-2xl font-bold font-serif mb-2">{isEn ? "1-on-1 Hollywood Mentorship" : "好莱坞导师一对一指导"}</h3>
+pages/FilmmakerSupport.tsx:91:                  <strong className="font-bold">{isEn ? "The Barrier: " : "障碍："}</strong>
+pages/FilmmakerSupport.tsx:92:                  {isEn ? "Hollywood runs on relationships. It is incredibly difficult for outsiders to penetrate the inner circle." : "好莱坞靠关系，外人很难进入核心圈子。"}
+pages/FilmmakerSupport.tsx:95:                  <strong className="font-bold">{isEn ? "GFA Solution: " : "GFA方案："}</strong>
+pages/FilmmakerSupport.tsx:96:                  {isEn ? "We match each applicant with an active industry mentor who provides one-on-one career guidance." : "为每位申请者匹配有好莱坞工业背景的导师，提供一对一职业指导。"}
+pages/FilmmakerSupport.tsx:99:                  {isEn ? "Details: Mentors hail from studios, networks, and independent prod-cos. Expect at least 2 sessions per month." : "具体说明：导师来自制片公司、电视网、独立电影行业，每月至少2次指导。"}
+pages/FilmmakerSupport.tsx:102:                  <button className="text-xs font-bold uppercase tracking-widest bg-gfa-inkBlack text-white px-6 py-2 rounded-full hover:bg-[#C9A84C] hover:shadow-md hover:-translate-y-0.5 active:bg-[#a68636] active:scale-95 transition-all duration-200">{isEn ? "Apply for Mentorship" : "申请导师匹配"}</button>
+pages/FilmmakerSupport.tsx:113:                <h3 className="text-2xl font-bold font-serif mb-2">{isEn ? "Distribution & Festivals" : "作品发行与电影节申报"}</h3>
+pages/FilmmakerSupport.tsx:117:                  <strong className="font-bold">{isEn ? "The Barrier: " : "障碍："}</strong>
+pages/FilmmakerSupport.tsx:118:                  {isEn ? "You made a great film, but have no idea how to get the world to actually see it." : "有好作品，但不知道如何让世界看到。"}
+pages/FilmmakerSupport.tsx:121:                  <strong className="font-bold">{isEn ? "GFA Solution: " : "GFA方案："}</strong>
+pages/FilmmakerSupport.tsx:122:                  {isEn ? "We help place your work on streaming platforms and guide your festival submission strategy." : "协助作品进入流媒体平台发行，指导电影节申报策略。"}
+pages/FilmmakerSupport.tsx:125:                  {isEn ? "Details: We've helped films onto Amazon Prime, Tubi, and YouTube, alongside submissions to Sundance, SXSW, and AFI." : "具体说明：GFA已有作品在Amazon Prime、Tubi、YouTube发行，协助申报 Sundance、SXSW、AFI 等主要电影节。"}
+pages/FilmmakerSupport.tsx:128:                  <button className="text-xs font-bold uppercase tracking-widest bg-gfa-inkBlack text-white px-6 py-2 rounded-full hover:bg-[#C9A84C] hover:shadow-md hover:-translate-y-0.5 active:bg-[#a68636] active:scale-95 transition-all duration-200">{isEn ? "Apply for Distribution" : "申请发行支持"}</button>
+pages/FilmmakerSupport.tsx:139:                <h3 className="text-2xl font-bold font-serif mb-2">{isEn ? "Grant Application Coaching" : "电影基金申请辅导"}</h3>
+pages/FilmmakerSupport.tsx:143:                  <strong className="font-bold">{isEn ? "The Barrier: " : "障碍："}</strong>
+pages/FilmmakerSupport.tsx:144:                  {isEn ? "You don't know where the funding is, or how to write the complicated paperwork to get it." : "不知道哪里有基金，申请文件复杂不知道怎么写。"}
+pages/FilmmakerSupport.tsx:147:                  <strong className="font-bold">{isEn ? "GFA Solution: " : "GFA方案："}</strong>
+pages/FilmmakerSupport.tsx:148:                  {isEn ? "We provide a database of film grants, review your application materials, and share proven winning strategies." : "提供电影基金信息库，协助撰写和审阅申请文件，分享成功申请经验。"}
+pages/FilmmakerSupport.tsx:151:                  <button className="text-xs font-bold uppercase tracking-widest bg-gfa-inkBlack text-white px-6 py-2 rounded-full hover:bg-[#C9A84C] hover:shadow-md hover:-translate-y-0.5 active:bg-[#a68636] active:scale-95 transition-all duration-200">{isEn ? "Book Consultation" : "预约基金咨询"}</button>
+pages/FilmmakerSupport.tsx:162:                <h3 className="text-2xl font-bold font-serif mb-2">{isEn ? "Real On-Set Experience" : "真实片场实战机会"}</h3>
+pages/FilmmakerSupport.tsx:166:                  <strong className="font-bold">{isEn ? "The Barrier: " : "障碍："}</strong>
+pages/FilmmakerSupport.tsx:167:                  {isEn ? "A blank resume. Without actual set experience, professional teams won't hire you." : "简历空白，没有真实片场经验无法进入专业团队。"}
+pages/FilmmakerSupport.tsx:170:                  <strong className="font-bold">{isEn ? "GFA Solution: " : "GFA方案："}</strong>
+pages/FilmmakerSupport.tsx:171:                  {isEn ? "Work in genuine professional roles on GFA's own productions to build a resume that gets you hired." : "在GFA自己的制作项目中担任真实的专业岗位，积累可写进简历的经验。"}
+pages/FilmmakerSupport.tsx:174:                  <button className="text-xs font-bold uppercase tracking-widest bg-gfa-inkBlack text-white px-6 py-2 rounded-full hover:bg-[#C9A84C] hover:shadow-md hover:-translate-y-0.5 active:bg-[#a68636] active:scale-95 transition-all duration-200">{isEn ? "Apply for Crew" : "申请实战机会"}</button>
+pages/FilmmakerSupport.tsx:187:              {isEn ? "How to Apply" : "申请流程"}
+pages/FilmmakerSupport.tsx:194:              <h4 className="font-bold text-lg mb-2">{isEn ? "Submit Application" : "提交申请"}</h4>
+pages/FilmmakerSupport.tsx:195:              <p className="text-sm font-light text-gfa-slate">{isEn ? "Fill out the online form, attach your portfolio link and career goals." : "填写在线申请表，附上作品链接和职业目标"}</p>
+pages/FilmmakerSupport.tsx:200:              <h4 className="font-bold text-lg mb-2">{isEn ? "GFA Review" : "GFA团队审核"}</h4>
+pages/FilmmakerSupport.tsx:201:              <p className="text-sm font-light text-gfa-slate">{isEn ? "We will carefully review your materials (usually within 3-5 days)." : "通常3-5个工作日内回复"}</p>
+pages/FilmmakerSupport.tsx:206:              <h4 className="font-bold text-lg mb-2">{isEn ? "1-on-1 Matching" : "一对一匹配"}</h4>
+pages/FilmmakerSupport.tsx:207:              <p className="text-sm font-light text-gfa-slate">{isEn ? "We assign the best support resources and mentors based on your goals." : "根据你的需求和目标匹配最适合的支持资源"}</p>
+pages/FilmmakerSupport.tsx:212:              <h4 className="font-bold text-lg mb-2">{isEn ? "Start Your Journey" : "开始你的旅程"}</h4>
+pages/FilmmakerSupport.tsx:213:              <p className="text-sm font-light text-gfa-slate">{isEn ? "Receive gear, meet mentors, and officially enter the GFA network." : "获得设备、导师、机会，正式进入GFA支持网络"}</p>
+pages/FilmmakerSupport.tsx:222:           <h3 className="text-2xl font-bold font-serif text-[#C9A84C] mb-8">{isEn ? "Who Can Apply?" : "谁可以申请？"}</h3>
+pages/FilmmakerSupport.tsx:225:                <h4 className="font-bold text-lg mb-4 flex items-center gap-2"><CheckCircle2 className="text-green-400 w-5 h-5"/> {isEn ? "Eligible:" : "符合资格："}</h4>
+pages/FilmmakerSupport.tsx:227:                  <li>• {isEn ? "Film, TV, and Media graduates" : "电影、电视、传媒相关专业毕业生"}</li>
+pages/FilmmakerSupport.tsx:228:                  <li>• {isEn ? "Independent directors, DPs, and producers with a portfolio" : "有作品的独立导演、摄影师、制片人"}</li>
+pages/FilmmakerSupport.tsx:229:                  <li>• {isEn ? "Emerging filmmakers from multicultural backgrounds" : "多元文化背景的新兴电影人"}</li>
+pages/FilmmakerSupport.tsx:230:                  <li>• {isEn ? "Talented creators from low-income backgrounds" : "低收入背景的有才华创作者"}</li>
+pages/FilmmakerSupport.tsx:234:                <h4 className="font-bold text-lg mb-4 flex items-center gap-2 text-white/50">{isEn ? "Not Required:" : "不需要："}</h4>
+pages/FilmmakerSupport.tsx:236:                  <li>• {isEn ? "Ivy League or elite film school degrees" : "名校背景"}</li>
+pages/FilmmakerSupport.tsx:237:                  <li>• {isEn ? "Pre-existing industry connections" : "已有行业人脉"}</li>
+pages/FilmmakerSupport.tsx:238:                  <li>• {isEn ? "Expensive ownership of cinema gear" : "昂贵的设备"}</li>
+pages/FilmmakerSupport.tsx:250:              {isEn ? "Success Stories" : "学员故事"}
+pages/FilmmakerSupport.tsx:257:               <p className="text-xs uppercase tracking-widest text-[#C9A84C] font-bold mb-4">{isEn ? "Cinematography Grad" : "摄影系毕业生"}</p>
+pages/FilmmakerSupport.tsx:259:                 "{isEn ? "GFA lent me an entire Blackmagic camera package for my first short film. That short got into festivals, and directly led to my first paying gig." : "通过设备借用完成了第一部短片，入围电影节后获得工作机会。"}"
+pages/FilmmakerSupport.tsx:265:               <p className="text-xs uppercase tracking-widest text-[#C9A84C] font-bold mb-4">{isEn ? "Independent Director" : "独立导演"}</p>
+pages/FilmmakerSupport.tsx:267:                 "{isEn ? "My GFA mentor pulled my resume from the pile and got me a production company internship. Now I work there full-time." : "通过导师网络进入制片公司实习，现在已经全职工作。"}"
+pages/FilmmakerSupport.tsx:273:               <p className="text-xs uppercase tracking-widest text-[#C9A84C] font-bold mb-4">{isEn ? "Low-Income Creator" : "低收入创作者"}</p>
+pages/FilmmakerSupport.tsx:275:                 "{isEn ? "I had to shelve my passion project because I couldn't afford production. GFA's grant application coaching helped me secure the funding to finish it." : "通过基金辅导获得资助，完成了长期搁置的项目。"}"
+pages/FilmmakerSupport.tsx:287:            {isEn ? "You're One Step Away." : "你距离行业，只差一步"}
+pages/FilmmakerSupport.tsx:290:            {isEn ? "Let GFA help you take it." : "GFA帮你跨过那一步"}
+pages/FilmmakerSupport.tsx:293:            {isEn ? "Apply Now" : "立即申请支持"} <ArrowRight className="w-5 h-5"/>
+pages/FilmmakerSupport.tsx:296:            {isEn ? "Free · Nonprofit · No Connections Required" : "免费 · 非营利 · 无需行业背景"}
+pages/Competition.tsx:24:    { q: "中国的孩子如何参赛？", a: "我们设有官方中国赛区，负责本地报名和初筛。成功晋级的选手将收到官方邀请函，前往洛杉矶主场地参加杜比剧院的总决赛。" },
+pages/Competition.tsx:25:    { q: "参赛需要什么语言能力？", a: "艺术超越语言。虽然基础英语对洛杉矶之旅有帮助，但表演和短片完全可以是中文（配备英文字幕）。我们在总决赛期间提供必要的语言协助。" },
+pages/Competition.tsx:26:    { q: "决赛是否需要亲自去洛杉矶？", a: "是的，总决赛是在杜比剧院举办的现场落地活动。如果您获得了决赛资格但因签证等不可抗力无法抵达，我们提供线上接入方案，但强烈建议亲自出席以获得完整体验。" },
+pages/Competition.tsx:27:    { q: "参赛费用是多少？有奖学金吗？", a: "报名费用于覆盖评审与行政成本。是的，GFA为来自低收入家庭的卓越才华选手提供按需分配的奖学金，包含报名费豁免，甚至是差旅补贴。" },
+pages/Competition.tsx:28:    { q: "评审是谁？标准是什么？", a: "我们的评审团由好莱坞活跃的导演、选角导演及资深教育专家组成。他们的评判标准基于：原创性、情感共鸣、技术执行力（针对短片组）和舞台表现力（针对才艺组）。" },
+pages/Competition.tsx:29:    { q: "如何知道是否入围决赛？", a: "所有参赛者将在预定的“入围名单公布日”通过电子邮件收到正式通知。同时，官方晋级名单也会在网站上公示。" }
+pages/Competition.tsx:53:            {isEn ? "2026 GFA Global Youth" : "2026全球青少年"}<br/>
+pages/Competition.tsx:54:            <span className="text-[#C9A84C]">{isEn ? "Talent Competition" : "才艺大赛"}</span>
+pages/Competition.tsx:57:            {isEn ? "Grand Finale at Dolby Theatre, Hollywood" : "决赛在好莱坞 Dolby Theatre"}
+pages/Competition.tsx:61:              {isEn ? "Register — US" : "美国区报名"}
+pages/Competition.tsx:64:              {isEn ? "Register — China" : "报名参赛 — 中国"}
+pages/Competition.tsx:76:               : "首个中美同步举办的青少年影视才艺大赛，以最高规格的艺术展示，填补了中美青少年深度文化交流的空白。"}
+pages/Competition.tsx:82:               : "为什么是Dolby Theatre？我们不是为了强调场地的奢华。这里是奥斯卡的家。每年二月，世界最顶尖的电影人在这里接受表彰，书写历史。2026年，这个舞台属于你的孩子。我们要用这个舞台告诉他们，他们的才华值得被世界看见。"}
+pages/Competition.tsx:88:               : "这是文化连接的真正意义所在。两国的孩子，可能面临不同的成长环境，但能用电影与艺术这个共同的语言，在同一个舞台上相遇，相互启发。"}
+pages/Competition.tsx:97:            <h2 className="text-4xl text-gfa-inkBlack font-bold font-serif">{isEn ? "Competition Divisions" : "参赛组别"}</h2>
+pages/Competition.tsx:104:                 <CheckCircle2 className="w-5 h-5"/> {isEn ? "By Age Group" : "按年龄划分"}
+pages/Competition.tsx:111:                     <p className="text-sm font-light text-gfa-slate">{isEn ? "Ages 6–10" : "6–10岁"}</p>
+pages/Competition.tsx:118:                     <p className="text-sm font-light text-gfa-slate">{isEn ? "Ages 11–14" : "11–14岁"}</p>
+pages/Competition.tsx:125:                     <p className="text-sm font-light text-gfa-slate">{isEn ? "Ages 15–18" : "15–18岁"}</p>
+pages/Competition.tsx:134:                 <CheckCircle2 className="w-5 h-5"/> {isEn ? "By Category" : "按专业类别划分"}
+pages/Competition.tsx:139:                   <h4 className="font-bold text-gfa-inkBlack mb-1">{isEn ? "Performance" : "表演类"}</h4>
+pages/Competition.tsx:140:                   <p className="text-xs text-gfa-slate">{isEn ? "(Solo / Ensemble)" : "个人 / 团体"}</p>
+pages/Competition.tsx:144:                   <h4 className="font-bold text-gfa-inkBlack mb-1">{isEn ? "Film Directing" : "短片导演类"}</h4>
+pages/Competition.tsx:145:                   <p className="text-xs text-gfa-slate">{isEn ? "Short films" : "剧情短片 / 纪录片"}</p>
+pages/Competition.tsx:149:                   <h4 className="font-bold text-gfa-inkBlack mb-1">{isEn ? "Screenwriting" : "剧本创作类"}</h4>
+pages/Competition.tsx:150:                   <p className="text-xs text-gfa-slate">{isEn ? "Original scripts" : "原创电影剧本"}</p>
+pages/Competition.tsx:154:                   <h4 className="font-bold text-gfa-inkBlack mb-1">{isEn ? "Talent Showcase" : "才艺展示类"}</h4>
+pages/Competition.tsx:155:                   <p className="text-xs text-gfa-slate">{isEn ? "Dance, Music, etc." : "舞蹈 / 音乐等"}</p>
+pages/Competition.tsx:168:             "这不是一个普通的才艺比赛。这是让你的孩子真正站上好莱坞最著名舞台的机会。Dolby Theatre，是每一个电影梦开始的地方。"
+pages/Competition.tsx:183:            <h2 className="text-3xl font-bold font-serif text-gfa-inkBlack">{isEn ? "Process & Timeline" : "参赛流程与节点"}</h2>
+pages/Competition.tsx:192:               { n: 1, zh: "在线报名", zhd: "填写基本信息和参赛类别", en: "Register Online", end: "Fill out info & categories" },
+pages/Competition.tsx:193:               { n: 2, zh: "提交作品", zhd: "上传视频或作品文件", en: "Submit Work", end: "Upload video or file" },
+pages/Competition.tsx:194:               { n: 3, zh: "评审入围", zhd: "专业评审委员会审核", en: "Jury Selection", end: "Industry panel review" },
+pages/Competition.tsx:195:               { n: 4, zh: "决赛舞台", zhd: "Dolby Theatre，好莱坞", en: "Grand Finale", end: "Dolby Theatre, LA" },
+pages/Competition.tsx:212:          <h2 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-12">{isEn ? "Awards & Honors" : "最高荣誉奖项设置"}</h2>
+pages/Competition.tsx:216:               <div className="font-bold text-gfa-inkBlack text-sm">{isEn ? "Grand Champion" : "总冠军"}</div>
+pages/Competition.tsx:220:               <div className="font-bold text-gfa-inkBlack text-sm">{isEn ? "Best Performance" : "最佳表演"}</div>
+pages/Competition.tsx:224:               <div className="font-bold text-gfa-inkBlack text-sm">{isEn ? "Best Film" : "最佳短片"}</div>
+pages/Competition.tsx:228:               <div className="font-bold text-gfa-inkBlack text-sm">{isEn ? "Best Screenplay" : "最佳剧本"}</div>
+pages/Competition.tsx:232:               <div className="font-bold text-gfa-inkBlack text-sm">{isEn ? "Best Talent" : "最佳才艺"}</div>
+pages/Competition.tsx:236:               <div className="font-bold text-sm tracking-wide">{isEn ? "Special Jury Award" : "评审特别奖"}</div>
+pages/Competition.tsx:240:               <div className="font-bold text-[#C9A84C] text-sm tracking-wide">{isEn ? "Rising Star Award" : "最具潜力新星"}</div>
+pages/Competition.tsx:250:             <h2 className="text-3xl font-bold font-serif text-gfa-inkBlack">{isEn ? "FAQ" : "常见问题"}</h2>
+pages/Competition.tsx:276:             {isEn ? "Become an Official Sponsor" : "成为大赛官方赞助商"}
+pages/Competition.tsx:281:               : "在杜比剧院获得极致的品牌曝光，同时支持下一代全球创作者群体的发展。"}
+pages/Competition.tsx:284:             {isEn ? "Sponsorship Inquiry" : "赞助方案咨询"}
+pages/About.tsx:28:            {isEn ? "Who We Are &" : "我们是谁，"}<br/>
+pages/About.tsx:29:            <span className="text-[#C9A84C]">{isEn ? "Why We Exist" : "我们为什么存在"}</span>
+pages/About.tsx:41:                {isEn ? "A Message From Our Founder" : "创始人致辞"}
+pages/About.tsx:53:                    <p>“在影视行业工作多年，我目睹了太多有才华的电影人因为一道道看不见的门槛而离开这个行业——不是因为他们不够好，而是因为他们没有一台摄影机，没有一个能推开那扇门的人，没有一个愿意相信他们的平台。”</p>
+pages/About.tsx:54:                    <p>“GFA的诞生，源于一个简单的信念：才华无处不在，但机会从来不是均等分配的。我们不相信一扇关闭的门应该成为任何人电影梦的终点。我们要成为那个帮他们推开门的地方——提供他们需要的设备、导师和资源，让他们真正走进这个行业。”</p>
+pages/About.tsx:55:                    <p>“真正的改变需要时间，也需要从源头开始。所以我们同时在做另一件事：从孩子第一次拿起摄影机的那一刻，我们就在他们身边。我们陪伴他们走过整个旅程——从教室到片场，从梦想到职业。”</p>
+pages/About.tsx:67:                  <p className="text-sm text-gfa-slate font-bold uppercase tracking-widest">{isEn ? "Founder & Program Director" : "创始人 & 项目总监"}</p>
+pages/About.tsx:83:                {isEn ? "About Global Film Alliance" : "机构简介"}
+pages/About.tsx:88:                  : "全球电影联盟（Global Film Alliance，简称GFA）是总部位于加利福尼亚州洛杉矶的501(c)(3)认证非营利组织。我们通过致力于影视教育、产业支撑与国际合作，为所有热爱电影的人打破行业壁垒，创造公平的机会。"}
+pages/About.tsx:104:                {isEn ? "Our Mission" : "使命"}
+pages/About.tsx:109:                  : "通过电影教育改变下一代，通过产业支持成就每一位电影人。"}
+pages/About.tsx:115:                {isEn ? "Our Vision" : "愿景"}
+pages/About.tsx:120:                  : "成为全球领先的电影教育与产业支撑平台，构建融合教育、创作、发行与产业资源的国际影视生态系统。"}
+pages/About.tsx:129:                {isEn ? "Four Core Truths" : "四大真理"}
+pages/About.tsx:138:                  {isEn ? "Nurture Youth Film Talent" : "培养青少年电影人才"}
+pages/About.tsx:143:                    : "为儿童及青少年提供系统化影视教育，包括表演、导演、拍摄、编剧等专业训练，有利于建立艺术素养与创造力。"}
+pages/About.tsx:151:                  {isEn ? "Promote Equitable Film Opportunities" : "推动公平的电影机会"}
+pages/About.tsx:156:                    : "为不同背景的老年人提供进入影视行业的机会，提高行业水平，促进信心与关怀性发展。"}
+pages/About.tsx:164:                  {isEn ? "Support Independent Filmmakers & Emerging Directors" : "支持独立电影人与新晋导演"}
+pages/About.tsx:169:                    : "为新兴电影人提供设备、导师网络、发行渠道和资金支持，帮助完成从创作到发行的全程闭环。"}
+pages/About.tsx:177:                  {isEn ? "Build a Film Ecosystem" : "打造电影生态"}
+pages/About.tsx:182:                    : "推进高质量、有社会价值的影视制作内容，并通过金羽毛奖（Golden Feather Awards）体系表彰优秀的新晋导演与杰出电影人。"}
+pages/About.tsx:192:                {isEn ? "Core Business" : "核心业务"}
+pages/About.tsx:201:                      {isEn ? "Sector" : "板块"}
+pages/About.tsx:204:                      {isEn ? "Content" : "内容"}
+pages/About.tsx:211:                      {isEn ? "Youth Education" : "青少年教育"}
+pages/About.tsx:216:                        : "影视表演、导演、编剧、摄影课程；电影夏令营；实战拍摄"}
+pages/About.tsx:221:                      {isEn ? "Film Production Support" : "电影制作支持"}
+pages/About.tsx:226:                        : "原创电影制作；短片；电影节参赛项目"}
+pages/About.tsx:231:                      {isEn ? "Emerging Filmmaker Support" : "新晋电影人支持"}
+pages/About.tsx:236:                        : "资金支持；设备资源；导师网络；人才活动影视公司"}
+pages/About.tsx:241:                      {isEn ? "Honorary Awards" : "荣誉奖项"}
+pages/About.tsx:246:                        : "金羽毛奖 — 面向新晋导演与所有优秀电影人"}
+pages/About.tsx:261:              {isEn ? "Partners" : "我们的合作伙伴"}
+pages/About.tsx:264:              {isEn ? "United by a Common Goal" : "为共同目标而联合"}
+pages/About.tsx:274:                {isEn ? "Professional equipment partner, providing pro-level camera gear support for GFA projects." : "专业设备合作伙伴，为GFA项目提供专业级摄影器材支持"}
+pages/About.tsx:283:                {isEn ? "Content partner collaborating on distribution and youth production." : "内容合作伙伴，参与项目发行及合作体验。"}
+pages/About.tsx:292:                {isEn ? "Government partner, proudly supporting GFA's local community outreach and youth initiatives." : "政府合作伙伴，支持GFA的社区服务项目"}
+pages/Programs.tsx:12:  const title = isEn ? "Our Programs — Shaping Tomorrow's Storytellers" : "我们的项目 — 塑造未来的影像讲述者";
+pages/Programs.tsx:15:    : "通过专业培训、真实制作经验和行业资源连接，赋能青少年。";
+pages/Programs.tsx:19:      title: isEn ? "Film Awards Ceremony" : "电影颁奖礼",
+pages/Programs.tsx:22:        : "在好莱坞最大的舞台上举办年度颁奖典礼，庆祝并表彰年轻的电影人才与新晋导演。",
+pages/Programs.tsx:27:      title: isEn ? "Emerging Director Support" : "新晋导演扶持",
+pages/Programs.tsx:30:        : "提供资金、导师指导和片场资源，帮助年轻的新晋导演完成他们的独立制片与长片及短片作品。",
+pages/Programs.tsx:35:      title: isEn ? "Global Film Platform Alliance" : "全球电影平台联合",
+pages/Programs.tsx:38:        : "与全球知名流媒体网络、院线和国际电影节合作，建立宣发联盟，提升青少年与青年导演电影作品的全球影响力。",
+pages/Programs.tsx:43:      title: isEn ? "Diverse Ethnicity Film Support" : "全球各族裔电影扶持",
+pages/Programs.tsx:46:        : "注资并支持来自全球各族裔、多元文化背景的影视项目，确保少数族裔和代表性不足的文化能够在电影中发出他们的声音。",
+pages/Programs.tsx:54:      <SEO title={isEn ? "Programs | GFA" : "项目 | GFA"} description={desc} />
+pages/Programs.tsx:101:                 {isEn ? 'Learn More' : '了解更多'}
+pages/ProgramAwards.tsx:27:            {isEn ? "Annual Highlight" : "年度盛事"}
+pages/ProgramAwards.tsx:30:            {isEn ? "Golden Feather Film Awards" : "金羽奖电影颁奖礼"}
+pages/ProgramAwards.tsx:35:               : "致敬未来的电影视觉人才，发掘电影艺术先锋，为年轻创作者提供一个无与伦比的全球闪耀舞台。"}
+pages/ProgramAwards.tsx:46:                {isEn ? "About the Golden Feather Awards" : "关于金羽奖"}
+pages/ProgramAwards.tsx:51:                  : "金羽奖电影颁奖礼是一项顶级的国际颁奖盛典，致力于发掘和赋能青年电影中的新兴声音。我们不只是提供认可，我们更是积极为您未来的电影事业进行投资。"}
+pages/ProgramAwards.tsx:56:                  : "我们的目标是建立一个全面的全球电影创作平台，大幅降低拍摄成本，将创作者与行业投资人直接对接，并搭建好莱坞与亚洲电影市场之间的可持续合作桥梁。"}
+pages/ProgramAwards.tsx:69:              {isEn ? "Opportunities & Industry Platform" : "机遇与产业平台整合"}
+pages/ProgramAwards.tsx:72:               {isEn ? "Participants and winners access a comprehensive ecosystem designed to launch film careers." : "参赛者与获奖者将进入一个旨在正式开启其电影职业生涯的全面生态系统。"}
+pages/ProgramAwards.tsx:81:               <h3 className="text-xl font-bold font-serif mb-4">{isEn ? "Global Distribution Network" : "全球发行平台"}</h3>
+pages/ProgramAwards.tsx:83:                 {isEn ? "Selected films gain access to our extensive global distribution network, ensuring stories are seen by audiences worldwide across premier streaming platforms and cinemas." : "入围及获奖影片将获得我们广泛的全球发行网络支持，确保您的故事能够通过顶级流媒体和院线与全球观众见面。"}
+pages/ProgramAwards.tsx:91:               <h3 className="text-xl font-bold font-serif mb-4">{isEn ? "Premier Screening Opportunities" : "国际展映平台"}</h3>
+pages/ProgramAwards.tsx:93:                 {isEn ? "Showcase your work live at top-tier film festivals and exclusive Hollywood screenings, gathering immediate feedback from industry veterans." : "在顶级电影节和好莱坞专属放映会上面向公众及业内人士展示您的作品，并获得行业资深人士的直接反馈。"}
+pages/ProgramAwards.tsx:101:               <h3 className="text-xl font-bold font-serif mb-4">{isEn ? "Expanding into the Asian Market" : "深度对接亚洲市场"}</h3>
+pages/ProgramAwards.tsx:103:                 {isEn ? "We facilitate direct connections and partnerships within the rapidly growing Asian film market, opening doors for co-productions and cross-cultural releases." : "我们促进与快速增长的亚洲电影市场的直接对接与合作，为合拍片和跨文化电影发行敞开大门，建立坚实合作关系。"}
+pages/ProgramAwards.tsx:111:               <h3 className="text-xl font-bold font-serif mb-4">{isEn ? "Film Creation Ecosystem" : "建立电影创作平台"}</h3>
+pages/ProgramAwards.tsx:113:                 {isEn ? "Our platform provides comprehensive resources, from script development to post-production, streamlining the entire creative process for young filmmakers." : "平台整合了从剧本开发到后期制作的综合资源，不断搭建与完善影视孵化平台，为年轻电影人简化创作流程。"}
+pages/ProgramAwards.tsx:121:               <h3 className="text-xl font-bold font-serif mb-4">{isEn ? "Lowering Production Costs" : "大幅降低拍摄成本"}</h3>
+pages/ProgramAwards.tsx:123:                 {isEn ? "Through our vendor networks and equipment subsidies, we heavily reduce the financial burden of production, allowing talent to focus purely on storytelling." : "通过我们的设备补贴和供应商网络联盟，显著降低制作成本，让创作者可以全心投入讲好故事。"}
+pages/ProgramAwards.tsx:131:               <h3 className="text-xl font-bold font-serif mb-4">{isEn ? "Investor Matchmaking" : "绑定行业投资人"}</h3>
+pages/ProgramAwards.tsx:133:                 {isEn ? "Dedicated pitch sessions and networking events tie promising projects to established film funds and independent investors ready to greenlight new visions." : "专设的项目路演场次与社交活动，将极具潜力的作品直接与成熟的电影基金及独立投资人绑定。"}
+pages/ProgramAwards.tsx:144:                {isEn ? "Award Categories" : "奖项设置"}
+pages/ProgramAwards.tsx:147:                {isEn ? "Recognizing excellence across all disciplines of filmmaking." : "表彰电影制作各个领域的卓越成就，涵盖长短片及各项核心技术。"}
+pages/ProgramAwards.tsx:153:                  { icon: Clapperboard, en: "Best Picture", zh: "最佳影片大奖" },
+pages/ProgramAwards.tsx:154:                  { icon: Sparkles, en: "Best Director", zh: "最佳新晋导演" },
+pages/ProgramAwards.tsx:155:                  { icon: Star, en: "Best Youth Actor", zh: "最佳青年演员" },
+pages/ProgramAwards.tsx:156:                  { icon: Lightbulb, en: "Best Screenplay", zh: "最佳原创剧本" },
+pages/ProgramAwards.tsx:157:                  { icon: Camera, en: "Best Cinematography", zh: "最佳摄影指导" },
+pages/ProgramAwards.tsx:158:                  { icon: Mic, en: "Best Sound Design", zh: "最佳声音设计" },
+pages/ProgramAwards.tsx:159:                  { icon: Video, en: "Best Short Film", zh: "最佳单元短片" },
+pages/ProgramAwards.tsx:160:                  { icon: Globe, en: "Global Cultural Impact", zh: "全球文化影响力奖" },
+pages/ProgramAwards.tsx:177:                {isEn ? "Ceremony Format & Experience" : "颁奖礼形式与盛典全流程"}
+pages/ProgramAwards.tsx:180:                {isEn ? "An unforgettable Hollywood experience connecting rising stars with industry legends." : "一次难忘的好莱坞盛典体验，将冉冉升起的新星与行业传奇紧密相连。"}
+pages/ProgramAwards.tsx:192:                       <h3 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-2">{isEn ? "The Red Carpet" : "星光红毯秀"}</h3>
+pages/ProgramAwards.tsx:193:                       <p className="text-gfa-slate font-light">{isEn ? "Walk the exclusive Hollywood red carpet with media coverage and celebrity guests." : "走上好莱坞专属红毯，接受全球媒体采访，与顶级明星嘉宾共襄盛举。"}</p>
+pages/ProgramAwards.tsx:206:                       <h3 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-2">{isEn ? "Nominee Showcase & Premiere" : "入围电影展映与首映礼"}</h3>
+pages/ProgramAwards.tsx:207:                       <p className="text-gfa-slate font-light">{isEn ? "Exclusive theater screenings of nominated films for distributors and international buyers." : "为发行商和国际买家专门安排的入围影片顶级影院级展映。"}</p>
+pages/ProgramAwards.tsx:220:                       <h3 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-2">{isEn ? "Gala & Awards Presentation" : "颁奖盛典与文艺汇演"}</h3>
+pages/ProgramAwards.tsx:221:                       <p className="text-gfa-slate font-light">{isEn ? "The grand ceremony featuring live performances, keynote speeches, and the Golden Feather presentations." : "隆重的盛典晚会，包括激燃的现场表演、行业领袖的主题演讲及金羽奖的正式颁发。"}</p>
+pages/ProgramAwards.tsx:234:                       <h3 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-2">{isEn ? "Industry After Party" : "行业交流晚宴"}</h3>
+pages/ProgramAwards.tsx:235:                       <p className="text-gfa-slate font-light">{isEn ? "A dedicated networking event to connect winners with Hollywood producers and Asian market funds." : "颁奖礼后的专属晚宴，旨在将获奖者与好莱坞知名制片人及亚洲市场基金无缝对接。"}</p>
+pages/ProgramAwards.tsx:256:                {isEn ? "Evaluation Criteria & Selection Model" : "评奖标准与评选模式"}
+pages/ProgramAwards.tsx:263:                       {isEn ? "Evaluation Criteria" : "评奖标准"}
+pages/ProgramAwards.tsx:269:                             <h4 className="font-bold text-lg mb-1">{isEn ? "Originality & Vision" : "原创性与视野"}</h4>
+pages/ProgramAwards.tsx:270:                             <p className="text-white/70 font-light text-sm">{isEn ? "Unique perspective, innovative storytelling, and bold artistic choices." : "独特的视角、创新的叙事方式及大胆的艺术选择。"}</p>
+pages/ProgramAwards.tsx:276:                             <h4 className="font-bold text-lg mb-1">{isEn ? "Technical Execution" : "技术执行力"}</h4>
+pages/ProgramAwards.tsx:277:                             <p className="text-white/70 font-light text-sm">{isEn ? "Proficiency in cinematography, editing, sound design, and overall production value." : "在摄影、剪辑、声音设计及整体制作水准上的专业表现。"}</p>
+pages/ProgramAwards.tsx:283:                             <h4 className="font-bold text-lg mb-1">{isEn ? "Emotional Impact" : "情感共鸣"}</h4>
+pages/ProgramAwards.tsx:284:                             <p className="text-white/70 font-light text-sm">{isEn ? "The film's ability to engage audiences and evoke a meaningful emotional response." : "影片吸引观众并引发深层情感共鸣的能力。"}</p>
+pages/ProgramAwards.tsx:293:                       {isEn ? "Selection Model" : "评选模式"}
+pages/ProgramAwards.tsx:297:                          <h4 className="font-bold text-lg mb-2">{isEn ? "Preliminary Round" : "初审阶段"}</h4>
+pages/ProgramAwards.tsx:299:                             {isEn ? "Submissions are reviewed by an initial committee of festival programmers to ensure technical readiness and rule compliance." : "所有提交作品将由电影节选片委员会进行初步审核，确保技术达标及符合参赛规则。"}
+pages/ProgramAwards.tsx:304:                          <h4 className="font-bold text-lg mb-2">{isEn ? "Industry Jury Panel" : "行业专家评委团终审"}</h4>
+pages/ProgramAwards.tsx:306:                             {isEn ? "Shortlisted films are evaluated by a prestigious panel of Hollywood directors, Asian market distributors, and top-tier critics." : "入围影片将交由由好莱坞知名导演、亚洲市场发行商及顶级影评人组成的国际专家评审团进行最终评选。"}
+pages/ProgramAwards.tsx:325:                    {isEn ? "Submission & Eligibility" : "报名指南与获奖资格"}
+pages/ProgramAwards.tsx:330:                      : "准备好向世界展现您的杰作了吗？请仔细阅读下方的赛事资格及报名要求。"}
+pages/ProgramAwards.tsx:338:                       {isEn ? "Eligibility Requirements" : "评选要求与获奖资格"}
+pages/ProgramAwards.tsx:343:                          {isEn ? "The primary creator (Director/Writer/Lead Actor) must be under 30 years old for youth categories." : "青年单元：主创人员（导演/编剧/主演）报名时年龄需在30周岁以下。"}
+pages/ProgramAwards.tsx:347:                          {isEn ? "Films must have been completed on or after January 1, 2024." : "影片制作完成时间必须为2024年1月1日之后。"}
+pages/ProgramAwards.tsx:351:                          {isEn ? "All non-English films MUST contain burned-in English subtitles." : "所有非英语对白影片【必须】嵌有英文字幕。"}
+pages/ProgramAwards.tsx:355:                          {isEn ? "Applicant must hold full distribution rights and necessary copyright clearances." : "报名者必须拥有该影片的完整发行权及音视频版权许可。"}
+pages/ProgramAwards.tsx:359:                          {isEn ? "Length: Short Films (under 40 mins), Feature Films (60+ mins)." : "时长要求：短片单元限40分钟以内，长片单元需在60分钟以上。"}
+pages/ProgramAwards.tsx:367:                       {isEn ? "Application Timeline" : "赛事报名流程及时间表"}
+pages/ProgramAwards.tsx:372:                          <h4 className="font-bold text-gfa-inkBlack">{isEn ? "Early Bird Submission" : "早鸟报名阶段"}</h4>
+pages/ProgramAwards.tsx:373:                          <p className="text-sm text-gfa-slate font-light mt-1">{isEn ? "Opens June 1, 2025" : "2025年6月1日开启"}</p>
+pages/ProgramAwards.tsx:377:                          <h4 className="font-bold text-gfa-inkBlack">{isEn ? "Regular Deadline" : "常规报名截止"}</h4>
+pages/ProgramAwards.tsx:378:                          <p className="text-sm text-gfa-slate font-light mt-1">{isEn ? "August 31, 2025" : "2025年8月31日"}</p>
+pages/ProgramAwards.tsx:382:                          <h4 className="font-bold text-gfa-inkBlack">{isEn ? "Shortlist Announcement" : "公布入围与获奖名单"}</h4>
+pages/ProgramAwards.tsx:383:                          <p className="text-sm text-gfa-slate font-light mt-1">{isEn ? "November 15, 2025" : "2025年11月15日"}</p>
+pages/ProgramAwards.tsx:387:                          <h4 className="font-bold text-gfa-inkBlack">{isEn ? "Golden Feather Gala" : "金羽奖颁奖礼盛典"}</h4>
+pages/ProgramAwards.tsx:388:                          <p className="text-sm text-gfa-slate font-light mt-1">{isEn ? "March 2026 (Hollywood, CA)" : "2026年3月（美国好莱坞）"}</p>
+pages/ProgramAwards.tsx:396:                   {isEn ? "Be the First to Know" : "抢先获取报名通道开启通知"}
+pages/ProgramAwards.tsx:401:                      placeholder={isEn ? "Enter your email address" : "输入邮箱地址..."} 
+pages/ProgramAwards.tsx:405:                       {isEn ? "Notify Me" : "立即获取通知"}
+pages/Awards.tsx:28:            {isEn ? "Hollywood's Premier" : "好莱坞最受期待的"}<br/>
+pages/Awards.tsx:29:            <span className="text-[#C9A84C]">{isEn ? "Youth Film Awards" : "青年电影人颁奖礼"}</span>
+pages/Awards.tsx:40:              : "当名字被念出的那一刻，你走上好莱坞那座熠熠生辉的颁奖台。聚光灯很刺眼，但当你低下头，正好看到前排父母眼中闪烁的泪光。就在那一秒，所有熬夜剪辑的疲惫、所有自我怀疑的瞬间、所有在雨中扛着沉重设备的日夜……全部化为真实。这一刻你确信：你是一名电影人。"}
+pages/Awards.tsx:44:             <p>{isEn ? "The Golden Feather Awards is not a youth talent show. It is a serious, rigorous industry commendation." : "金羽奖不是一个简单的儿童才艺比赛。它是一个极其严肃的专业表彰活动。"}</p>
+pages/Awards.tsx:45:             <p>{isEn ? "Judged by a panel of active Hollywood professionals, we host a formal gala in the heart of Los Angeles to recognize the exceptional artistic vision and unyielding dedication of emerging young creatives." : "由好莱坞仍在活跃的专业人士组成评审委员会，并在好莱坞的核心地带举办正式的高规格颁奖典礼，隆重表彰在电影艺术领域展现卓越才华和不懈努力的青年创作者。"}</p>
+pages/Awards.tsx:55:               {isEn ? "2025 Ceremony Recap" : "2025 年度回顾"}
+pages/Awards.tsx:62:                 <div className="text-sm text-[#C9A84C] font-bold uppercase tracking-widest">{isEn ? "Youth Winners" : "位青年电影人获奖"}</div>
+pages/Awards.tsx:66:                 <div className="text-sm text-[#C9A84C] font-bold uppercase tracking-widest">{isEn ? "Industry Judging" : "好莱坞工业评审"}</div>
+pages/Awards.tsx:70:                 <div className="text-sm text-[#C9A84C] font-bold uppercase tracking-widest">{isEn ? "Red Carpet Gala" : "正式红毯大典"}</div>
+pages/Awards.tsx:76:              <h3 className="text-xl font-bold font-serif mb-4 text-[#C9A84C]">{isEn ? "Winner Spotlight" : "获奖者感言"}</h3>
+pages/Awards.tsx:78:                "{isEn ? "I shot my short film on my phone with my friends from school. Standing here tonight holding this trophy, surrounded by real directors... it changes everything. It tells me I actually belong here." : "我的短片是我和同学用手机拍的。今晚能站在这里拿着这座奖杯，周围全都是真正的导演……这改变了一切。它告诉我，我是属于这里的。"}"
+pages/Awards.tsx:80:              <div className="text-sm font-bold uppercase tracking-widest text-white/50">- {isEn ? "Best Director (High School Category)" : "最佳青年导演（高中组）"}</div>
+pages/Awards.tsx:93:                 {isEn ? "Award Categories" : "奖项类别设置"}
+pages/Awards.tsx:97:                   { en: "Best Young Director", zh: "最佳青年导演", icon: <Star className="w-5 h-5"/> },
+pages/Awards.tsx:98:                   { en: "Best Performance", zh: "最佳表演", icon: <Star className="w-5 h-5"/> },
+pages/Awards.tsx:99:                   { en: "Best Short Film", zh: "最佳短片", icon: <Star className="w-5 h-5"/> },
+pages/Awards.tsx:100:                   { en: "Best Screenplay", zh: "最佳剧本", icon: <Star className="w-5 h-5"/> },
+pages/Awards.tsx:101:                   { en: "Best Cinematography", zh: "最佳摄影", icon: <Star className="w-5 h-5"/> },
+pages/Awards.tsx:102:                   { en: "Emerging Star Award", zh: "最具潜力新星奖", icon: <Medal className="w-5 h-5"/> },
+pages/Awards.tsx:103:                   { en: "Special Jury Prize", zh: "评审特别奖", icon: <Trophy className="w-5 h-5"/> },
+pages/Awards.tsx:116:                 {isEn ? "Judging Mechanism" : "公正的评审机制"}
+pages/Awards.tsx:121:                   : "为了保证金羽奖的权威性与荣誉感，我们的评审委员会完全由在一线活跃的行业专家组成：包括美国导演工会(DGA)导演、美国制片人工会(PGA)制片人、电影节选片人以及资深的影视教育专家。"}
+pages/Awards.tsx:126:                   : "我们对初审阶段的技术类奖项采用盲审制度以确保绝对的公正性，纯粹评估作品传达的原始情感冲击力与技术成熟度，不受背景因素干扰。"}
+pages/Awards.tsx:130:                 <h4 className="font-bold font-serif text-[#C9A84C] text-xl mb-4">{isEn ? "2026 Awards Preview" : "2026年金羽奖预告"}</h4>
+pages/Awards.tsx:132:                   {isEn ? "The next ceremony will be bigger, bringing together more global voices. Date to be announced." : "下一届颁奖礼将规模更大，汇聚更多全球优秀的青年声音。具体时间即将揭晓，敬请期待。"}
+pages/Awards.tsx:135:                   {isEn ? "Join Notification List" : "加入通知名单"}
+pages/Awards.tsx:149:               <h4 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-4">{isEn ? "Press & Media" : "媒体与报道"}</h4>
+pages/Awards.tsx:150:               <p className="text-sm font-light text-gfa-slate mb-8">{isEn ? "Cover the brightest young talents on their big night." : "为这些在闪耀之夜的才华青年进行报道与传播。"}</p>
+pages/Awards.tsx:152:                 {isEn ? "Request Press Pass" : "申请媒体证件"}
+pages/Awards.tsx:157:               <h4 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-4">{isEn ? "Corporate Sponsors" : "企业赞助"}</h4>
+pages/Awards.tsx:158:               <p className="text-sm font-light text-gfa-slate mb-8">{isEn ? "Align your brand with the future stars of Hollywood." : "将您的品牌与好莱坞未来的璀璨新星联系在一起。"}</p>
+pages/Awards.tsx:160:                 {isEn ? "Sponsorship Inquiry" : "颁奖礼赞助咨询"}
+pages/Awards.tsx:168:               {isEn ? "Fund a Dream" : "资助一个梦想之夜"}
+pages/Awards.tsx:173:                 : "我们的颁奖礼是完全非营利的。您的捐款将直接用于支持低收入家庭的提名者来到洛杉矶现场，为他们举办一场终生难忘的荣誉盛典。"}
+pages/Awards.tsx:176:               <Heart className="w-4 h-4 fill-current"/> {isEn ? "Donate to the Awards" : "为金羽奖捐款"}
+pages/News.tsx:19:             {isEn ? "News &" : "新闻与"}<br/>
+pages/News.tsx:20:             <span className="text-[#C9A84C]">{isEn ? "Media" : "媒体"}</span>
+pages/News.tsx:40:                      {isEn ? "Global Youth Talent Competition 2026 Officially Announced" : "2026全球青少年才艺大赛正式启动"}
+pages/News.tsx:43:                      {isEn ? "GFA announces its flagship event to be held at the Dolby Theatre, uniting young talents from the US and China on a single stage." : "GFA宣布将于好莱坞杜比剧院举办核心赛事，首次将中美两地的才华青少年汇聚于同一舞台。"}
+pages/News.tsx:46:                      {isEn ? "Read Full Release" : "阅读完整新闻稿"} <ArrowRight className="w-4 h-4"/>
+pages/News.tsx:61:                      {isEn ? "Student Short Film 'Garden' Picked Up by Amazon Prime" : "学生短片《花园》成功上线 Amazon Prime"}
+pages/News.tsx:64:                      {isEn ? "Produced entirely by our Youth Film Campers, the award-winning short film secures major streaming distribution." : "完全由 GFA 夏令营学员制作的获奖短片获得主流流媒体平台发行支持。"}
+pages/News.tsx:67:                      {isEn ? "Read Full Release" : "阅读完整新闻稿"} <ArrowRight className="w-4 h-4"/>
+pages/News.tsx:80:                      {isEn ? "Golden Feather Awards Recognizes 18 Emerging Creators" : "金羽奖表彰了18位杰出青年创作者"}
+pages/News.tsx:83:                      {isEn ? "An unforgettable night in Hollywood celebrating the visionaries of tomorrow." : "一个在好莱坞庆祝明日远见者的难忘之夜。"}
+pages/News.tsx:86:                      {isEn ? "Read Full Release" : "阅读完整新闻稿"} <ArrowRight className="w-4 h-4"/>
+pages/News.tsx:95:                {isEn ? "Load More News" : "加载更多新闻"}
+pages/News.tsx:104:           <h2 className="text-3xl font-bold font-serif mb-6">{isEn ? "Media Assets & Press Kit" : "媒体素材与资料包"}</h2>
+pages/News.tsx:108:               : "媒体人员可在此下载高清Logo、新闻素材视频(B-roll)以及机构背景介绍资料。"}
+pages/News.tsx:111:             {isEn ? "Download Press Kit (.ZIP)" : "下载媒体资料包 (.ZIP)"}
+pages/Transparency.tsx:12:    { type: t.locale === 'zh' ? '会员注册' : 'Member Registration', fee: '$0.00 / ¥0', req: t.common.required, note: t.locale === 'zh' ? '基础身份核验' : 'Baseline identity verification.', ref: 'No' },
+pages/Transparency.tsx:13:    { type: t.locale === 'zh' ? '试镜授权费' : 'Authorized Audition Fee', fee: 'Capped / 受限', req: t.common.optional, note: t.locale === 'zh' ? '受 GFA 标准约束' : 'Capped by GFA Standards.', ref: 'Yes' }
+pages/Safeguarding.tsx:30:            {isEn ? "Creating Safe Spaces for Young Storytellers" : "为年轻讲述者创造安全的空间"}
+pages/Safeguarding.tsx:35:               : "因为信任的环境是真正创造力的基础。"}
+pages/Safeguarding.tsx:46:            {isEn ? "Our Commitment to Youth" : "我们对青少年的承诺"}
+pages/Safeguarding.tsx:51:               : "在全球电影联盟 (GFA)，我们认为所服务青少年的身体、情感和心理健康先于任何制作计划或创作目标。作为一家倡导青少年参与影视行业的非营利组织，制定最高标准的儿童保护规范是我们的基本职责。"}
+pages/Safeguarding.tsx:60:                  {isEn ? "A Culture of Care on Every Set" : "每个片场都充满关爱的文化"}
+pages/Safeguarding.tsx:65:                    : "电影行业可能会要求很高，但我们的项目旨在培养。我们对所有导师、导演和剧组成员进行严格的儿童保护协议培训。"}
+pages/Safeguarding.tsx:68:                  <li className="flex items-center gap-3"><CheckCircle className="text-[#C9A84C] w-5 h-5"/> {isEn ? "Background checks for all adult staff" : "所有成年工作人员的背景调查"}</li>
+pages/Safeguarding.tsx:69:                  <li className="flex items-center gap-3"><CheckCircle className="text-[#C9A84C] w-5 h-5"/> {isEn ? "Zero tolerance for harassment or bullying" : "对骚扰或欺凌零容忍"}</li>
+pages/Safeguarding.tsx:70:                  <li className="flex items-center gap-3"><CheckCircle className="text-[#C9A84C] w-5 h-5"/> {isEn ? "Strict working hour limits for minors" : "严格限制未成年人的工作时间"}</li>
+pages/Safeguarding.tsx:71:                  <li className="flex items-center gap-3"><CheckCircle className="text-[#C9A84C] w-5 h-5"/> {isEn ? "Dedicated onset Welfare Officers" : "设立专门的片场福利官"}</li>
+pages/Safeguarding.tsx:89:                {isEn ? "Our Protection Framework" : "我们的保护框架"}
+pages/Safeguarding.tsx:92:                {isEn ? "We uphold international standards to ensure that the vulnerability of youth is never exploited." : "我们秉持国际标准，确保青少年的脆弱性绝不被利用。"}
+pages/Safeguarding.tsx:99:                 <h4 className="text-xl font-bold font-serif mb-4">{isEn ? "Physical Safety" : "物理环境安全"}</h4>
+pages/Safeguarding.tsx:101:                   {isEn ? "Safe sets, appropriate lighting, hydration stations, and strictly enforced safety rules around equipment." : "安全的片场、合适的照明、饮水站以及设备周围严格执行的安全规章。"}
+pages/Safeguarding.tsx:106:                 <h4 className="text-xl font-bold font-serif mb-4">{isEn ? "Emotional Well-being" : "情感健康"}</h4>
+pages/Safeguarding.tsx:108:                   {isEn ? "Creating an inclusive, non-judgmental environment where mistakes are treated as learning opportunities." : "创造一个包容、不评判的环境，把犯错视为学习的机会。"}
+pages/Safeguarding.tsx:113:                 <h4 className="text-xl font-bold font-serif mb-4">{isEn ? "Digital Privacy" : "数字与隐私安全"}</h4>
+pages/Safeguarding.tsx:115:                   {isEn ? "Strict consent protocols for publishing images or films featuring minors, protecting their digital footprint." : "严格的照片或影像发布许可协议，保护未成年人的数字足迹。"}
+pages/Safeguarding.tsx:141:                 {isEn ? "See something? Say something." : "看到异常？请发声。"}
+pages/Safeguarding.tsx:146:                   : "如果您目睹或经历了任何违反我们青少年保护标准的行为，请立即与我们联系。所有报告均严格保密。"}
+pages/Safeguarding.tsx:150:                  {isEn ? "Submit Confidential Report" : "提交保密报告"}
+pages/ProgramEmergingDirector.tsx:26:            {isEn ? "Real Sets. Real Cameras. Real Stories." : "真实的片场。真实的摄像机。真实的故事。"}
+pages/ProgramEmergingDirector.tsx:36:               : "每季度，GFA制作一部由青少年全面主导的专业短片——从概念构思到实际拍摄。孩子们不仅仅是看电影，他们正在创造电影。"}
+pages/ProgramEmergingDirector.tsx:42:            {isEn ? "Released Projects" : "已发行影片"}
+pages/ProgramEmergingDirector.tsx:51:                <h3 className="text-3xl font-bold font-serif text-gfa-inkBlack mb-2">《花园 Garden》</h3>
+pages/ProgramEmergingDirector.tsx:54:                  {isEn ? "An enchanting story exploring childhood imagination and family bonds, produced entirely by our 2024 youth cohort." : "一个探索童年想象力和家庭纽带的迷人故事，由我们2024届青少年完全主导制作。"}
+pages/ProgramEmergingDirector.tsx:75:                   {isEn ? "A suspenseful drama created by teenagers investigating a local myth." : "一部由青少年创作的悬疑剧情片，调查一个当地的传说。"}
+pages/ProgramEmergingDirector.tsx:85:             {isEn ? "Want to be part of the next film?" : "想参与下一部电影的制作吗？"}
+pages/ProgramEmergingDirector.tsx:88:             {isEn ? "If you or your child is interested in acting, directing, or crewing for our upcoming projects, let us know." : "如果您的孩子对表演、导演或参与我们未来项目的幕后工作感兴趣，请联系我们。"}
+pages/ProgramEmergingDirector.tsx:91:             {isEn ? "Express Interest" : "填写意向"}
+pages/ProgramPlatformAlliance.tsx:25:            {isEn ? "Your Hollywood Journey Starts Here" : "你的好莱坞之旅从这里开始"}
+pages/ProgramPlatformAlliance.tsx:35:               : "面向应届毕业生和新兴电影人，提供好莱坞工业体系内的专业培训和实践机会，弥合学术学习与职业现实之间的差距。"}
+pages/ProgramPlatformAlliance.tsx:47:                   {isEn ? "Industry Mentorship" : "行业导师指导"}
+pages/ProgramPlatformAlliance.tsx:50:                   {isEn ? "One-on-one guidance from established Hollywood professionals, producers, and directors." : "由资深好莱坞专业人士、制片人和导演提供一对一指导。"}
+pages/ProgramPlatformAlliance.tsx:61:                   {isEn ? "On-Set Professional Training" : "片场专业实训"}
+pages/ProgramPlatformAlliance.tsx:64:                   {isEn ? "Shadowing and hands-on roles on real commercial and independent film sets." : "在真实商业广告和独立电影片场进行观摩学习和实操演练。"}
+pages/ProgramPlatformAlliance.tsx:75:                   {isEn ? "Portfolio & Reel Development" : "作品集与样片开发"}
+pages/ProgramPlatformAlliance.tsx:78:                   {isEn ? "Expert review and refinement of your showreel, script portfolio, or DP reel." : "专家评审并完善您的样片、剧本作品集或摄影样片。"}
+pages/ProgramPlatformAlliance.tsx:89:                   {isEn ? "Film Festival Strategy" : "电影节战略规划"}
+pages/ProgramPlatformAlliance.tsx:92:                   {isEn ? "Learn how to navigate submissions, networking, and distribution at tier-1 festivals." : "学习如何在一线电影节上进行申请、拓展人脉和发行。"}
+pages/ProgramPlatformAlliance.tsx:101:            {isEn ? "Apply Now" : "立即申请"}
+pages/YouthProtection.tsx:29:            {isEn ? "Youth Protection & Safety" : "青少年安全与保护"}
+pages/YouthProtection.tsx:34:              : "因为如果他们站在舞台上感到不安全，那么即使给他们舞台也毫无意义。"}
+pages/YouthProtection.tsx:43:              {isEn ? "Our Commitment" : "我们的承诺"}
+pages/YouthProtection.tsx:46:              {isEn ? "Safety is not an afterthought. It is our foundation." : "安全绝非后话。它是我们一切工作的基础。"}
+pages/YouthProtection.tsx:51:                : "在全球电影联盟 (GFA)，我们绝对致力于为每个孩子提供一个安全、合乎道德和充满支持的环境。无论是在片场、夏令营，还是在颁奖典礼上，保护我们年轻艺术家的身心健康都是我们的最高优先事项。"}
+pages/YouthProtection.tsx:72:                      <h4 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-2">{isEn ? "Two-Adult Rule (Always Visibile)" : "双成人监督准则"}</h4>
+pages/YouthProtection.tsx:74:                        {isEn ? "No child is ever left alone with a single adult, mentor, or staff member. All interactions occur in open, observable environments with at least two background-checked adults present at all times." : "任何孩子都不会与单独的一名成年人、导师或工作人员独处。所有互动均在开放且可观察的环境中进行，并始终至少有两名经过背景调查的成年人在场。"}
+pages/YouthProtection.tsx:84:                      <h4 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-2">{isEn ? "Rigorous Background Checks" : "严格的背景审查"}</h4>
+pages/YouthProtection.tsx:86:                        {isEn ? "Every single staff member, mentor, instructor, and volunteer undergoes comprehensive national background and reference checks before they are allowed anywhere near our programs." : "每一位工作人员、导师、讲师和志愿者在获准参与我们的项目之前，都必须接受全面的国家级背景和背景调查。"}
+pages/YouthProtection.tsx:96:                      <h4 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-2">{isEn ? "Data & Media Privacy" : "数据与媒体隐私"}</h4>
+pages/YouthProtection.tsx:98:                        {isEn ? "We strictly protect the digital identity of our youth. Photos and footage of children are only used with explicit parental consent, and sensitive personal information is secured using industry-standard protocols." : "我们严格保护青少年的数字身份。儿童的影像仅在获得家长明确同意的情况下使用，敏感的个人信息采用行业标准协议进行保护。"}
+pages/YouthProtection.tsx:108:                     {isEn ? "The Hollywood Standard" : "好莱坞级别的保护标准"}
+pages/YouthProtection.tsx:113:                       : "因为我们的学生在真实的电影片场工作，我们强制要求严格遵守加州童工法和行业安全协议。工作时间受到精心管理，并在所有制作项目中配备驻场福利协调员。"}
+pages/YouthProtection.tsx:136:                  {isEn ? "Ethical Leadership" : "道德准则"}
+pages/YouthProtection.tsx:139:                  {isEn ? "Advancing Industry Integrity" : "推进行业诚信与保护准则"}
+pages/YouthProtection.tsx:144:                    : "GFA 积极在我们所有的合作伙伴中推广诚信文化。我们与制片厂、剧院和地方政府合作，以确保青少年参与媒体不仅在创意上令人满足，而且在道德上也是正确的。"}
+pages/YouthProtection.tsx:149:                    : "让年轻人的声音融入电影绝不能以牺牲他们的纯真或安全为代价。我们正在为非营利组织如何与娱乐业互动树立标准。"}
+pages/YouthProtection.tsx:160:             {isEn ? "Report a Concern" : "报告安全问题"}
+pages/YouthProtection.tsx:165:               : "如果您对 GFA 任何项目中的任何儿童的安全或福祉有任何疑虑，请立即与我们联系。我们对任何不当行为采取零容忍政策。"}
+pages/YouthProtection.tsx:168:             {isEn ? "Contact Safety Team" : "联系安全团队"}
+pages/Donate.tsx:25:    alert(isEn ? "Thank you for your support! Redirecting to secure payment..." : "感谢您的支持！我们将跳转到安全支付页面...");
+pages/Donate.tsx:32:      zhDesc: '为一位孩子提供一天的营地体验'
+pages/Donate.tsx:37:      zhDesc: '支付一位毕业生一次导师指导课'
+pages/Donate.tsx:42:      zhDesc: '为一部短片支付一天的设备租金'
+pages/Donate.tsx:47:      zhDesc: '资助一位低收入学生参加完整影视夏令营'
+pages/Donate.tsx:52:      zhDesc: '为一位新晋导演提供一个月的导师计划'
+pages/Donate.tsx:57:      zhDesc: '以你的名字命名一个年度奖学金名额'
+pages/Donate.tsx:65:      {/* 2. Hero情感区 */}
+pages/Donate.tsx:70:              {isEn ? "MAKE A DIFFERENCE" : "MAKE A DIFFERENCE · 让改变发生"}
+pages/Donate.tsx:78:                <>你的捐款<br/>帮一个有才华的人打开那扇门</>
+pages/Donate.tsx:85:              : "每一分捐款，直接用于帮助电影专业毕业生突破行业壁垒，为没有资源的孩子提供影视教育机会。"}
+pages/Donate.tsx:90:              <Check className="w-5 h-5"/> {isEn ? "100% Tax-Deductible" : "100% Tax-Deductible · 捐款全额可抵税"}
+pages/Donate.tsx:103:      {/* 3. 捐款理由区 */}
+pages/Donate.tsx:107:            {isEn ? "Why Your Gift Matters" : "为什么你的捐款很重要"}
+pages/Donate.tsx:113:              : "有些电影人，才华足以改变这个行业，但因为没有一台摄影机，没有一个认识他们的导师，他们的故事永远没有被讲出来。你的捐款，就是改变这个结果的力量。"}"
+pages/Donate.tsx:120:                 {isEn ? "Film jobs lost in LA in 2 years" : "洛杉矶两年内流失的影视岗位"}
+pages/Donate.tsx:126:                 {isEn ? "CA film graduates entering market yearly" : "每年涌入市场的加州影视毕业生"}
+pages/Donate.tsx:132:                 {isEn ? "Film industry unemployment rate" : "影视行业失业率，全国均值2.5倍"}
+pages/Donate.tsx:138:            {isEn ? "GFA is filling this gap" : "GFA正在填补这个空白"}
+pages/Donate.tsx:143:      {/* 4. 捐款金额选择区（核心） */}
+pages/Donate.tsx:148:              {isEn ? "Choose Your Gift Amount" : "选择你的捐款金额"}
+pages/Donate.tsx:151:              {isEn ? "Every amount has a specific purpose" : "每一个金额，都有具体的用途"}
+pages/Donate.tsx:163:                  {isEn ? "One-Time" : "一次性捐款"}
+pages/Donate.tsx:169:                  {isEn ? "Monthly" : "月度定期"}
+pages/Donate.tsx:176:                    {isEn ? "12x the Impact" : "影响力×12"}
+pages/Donate.tsx:181:                      : "月度捐款让GFA能够提供持续稳定的支持，影响力是一次性捐款的12倍。"}
+pages/Donate.tsx:210:                {isEn ? "Other Amount" : "Other Amount · 自定义金额"}
+pages/Donate.tsx:217:                  placeholder={isEn ? "Enter your amount" : "输入金额"}
+pages/Donate.tsx:235:                {isEn ? `Donate Now · Secure Payment` : `立即捐款 · 安全支付`}
+pages/Donate.tsx:241:               <div className="flex items-center gap-1.5"><Lock className="w-4 h-4 text-[#C9A043]"/> {isEn ? "Secure & Encrypted" : "安全加密"}</div>
+pages/Donate.tsx:242:               <div className="flex items-center gap-1.5"><Check className="w-4 h-4 text-[#C9A043]"/> {isEn ? "You'll receive a tax receipt" : "将收到税务收据"}</div>
+pages/Donate.tsx:248:      {/* 5. 捐款方式区 */}
+pages/Donate.tsx:252:            {isEn ? "Ways to Give" : "捐款方式"}
+pages/Donate.tsx:261:                 {isEn ? "Online" : "在线捐款 (Online)"}
+pages/Donate.tsx:264:                 {isEn ? "Accepts: Visa / Mastercard / American Express / Discover" : "接受：Visa / Mastercard / American Express / Discover"}
+pages/Donate.tsx:270:                 {isEn ? "Secure encrypted payment, instant processing. Receipt within 24 hours." : "安全加密支付，即时处理。捐款后24小时内收到电子收据。"}
+pages/Donate.tsx:279:                 {isEn ? "Check" : "支票捐款 (Check)"}
+pages/Donate.tsx:282:                 <p className="mb-2 font-bold">{isEn ? "Payable to:" : "收款人请写："}</p>
+pages/Donate.tsx:285:                 <p className="mb-2 font-bold">{isEn ? "Mailing Address:" : "邮寄地址："}</p>
+pages/Donate.tsx:291:                   {isEn ? "Memo: Donation for [Program]" : "请在备注栏注明：Donation for [项目名称]"}
+pages/Donate.tsx:301:                 {isEn ? "Corporate Matching" : "企业匹配捐款 (Matching)"}
+pages/Donate.tsx:306:                   : "很多企业提供员工捐款匹配计划，你的捐款可能被翻倍！"}
+pages/Donate.tsx:309:                 <p className="text-xs text-gray-500 mb-1">{isEn ? "Ask your HR:" : "请向你的HR询问："}</p>
+pages/Donate.tsx:313:                 {isEn ? "For matching verification:" : "如需GFA的匹配捐款证明，请联系："}<br/>
+pages/Donate.tsx:321:      {/* 6. 企业赞助区 */}
+pages/Donate.tsx:326:              {isEn ? "Corporate Partnership" : "企业赞助合作"}
+pages/Donate.tsx:329:              {isEn ? "Connect your brand with the next generation of Hollywood talent." : "将您的品牌与下一代好莱坞人才连接"}
+pages/Donate.tsx:339:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Website acknowledgment" : "官网致谢页 Logo 展示"}</li>
+pages/Donate.tsx:340:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Social media shoutout (1x)" : "社交媒体感谢帖（1次）"}</li>
+pages/Donate.tsx:341:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Annual report listing" : "年度报告致谢"}</li>
+pages/Donate.tsx:342:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Digital certificate" : "电子感谢证书"}</li>
+pages/Donate.tsx:343:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Priority event invites" : "GFA 活动优先邀请"}</li>
+pages/Donate.tsx:346:                {isEn ? "Become Community Partner" : "成为社区合作伙伴"}
+pages/Donate.tsx:355:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Logo on website" : "官网 Logo 展示"}</li>
+pages/Donate.tsx:356:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Event brand integration" : "活动现场品牌展示"}</li>
+pages/Donate.tsx:357:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Golden Feather Awards VIP seats (2)" : "Golden Feather Awards 颁奖礼席位（2位）"}</li>
+pages/Donate.tsx:358:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Social media shoutouts (3x)" : "社交媒体感谢帖（3次）"}</li>
+pages/Donate.tsx:359:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Annual report listing" : "年度报告致谢"}</li>
+pages/Donate.tsx:360:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Digital certificate" : "电子感谢证书"}</li>
+pages/Donate.tsx:363:                {isEn ? "Become Silver Partner" : "成为银牌合作伙伴"}
+pages/Donate.tsx:372:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Premium logo placement" : "官网首页 Logo 展示"}</li>
+pages/Donate.tsx:373:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "All events brand integration" : "所有活动现场品牌展示"}</li>
+pages/Donate.tsx:374:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Golden Feather Awards VIP seats (4)" : "Golden Feather Awards 颁奖礼 VIP 席位（4位）"}</li>
+pages/Donate.tsx:375:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Dolby Theatre finals exposure" : "Dolby Theatre 决赛品牌曝光"}</li>
+pages/Donate.tsx:376:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Dedicated social feature" : "社交媒体专题感谢帖"}</li>
+pages/Donate.tsx:377:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Annual report cover acknowledgment" : "年度报告封面致谢"}</li>
+pages/Donate.tsx:378:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Joint press release" : "联合新闻稿发布"}</li>
+pages/Donate.tsx:379:                <li className="flex gap-3"><Check className="w-5 h-5 text-[#C9A043] shrink-0"/> {isEn ? "Exclusive content collabs" : "独家内容合作机会"}</li>
+pages/Donate.tsx:382:                {isEn ? "Become Gold Partner" : "成为金牌合作伙伴"}
+pages/Donate.tsx:388:             {isEn ? "For custom partnership packages, please contact:" : "如需定制赞助方案，请联系："} <br className="md:hidden" />
+pages/Donate.tsx:395:      {/* 7. 税务声明区 */}
+pages/Donate.tsx:400:              {isEn ? "Tax Deductibility" : "税务抵扣说明"}
+pages/Donate.tsx:409:                  全球电影联盟（Global Film Alliance, Inc.）是美国国税局认证的501(c)(3)非营利组织。您的所有捐款均可在美国联邦税申报时全额抵扣，我们将在捐款后24小时内通过电子邮件发送官方捐款收据。
+pages/Donate.tsx:436:      {/* 8. 捐款人感谢区 */}
+pages/Donate.tsx:441:              {isEn ? "Thank You to Our Supporters" : "感谢我们的支持者"}
+pages/Donate.tsx:444:              {isEn ? "Because of them, more doors are being opened." : "正是因为他们，更多电影人的门被打开了"}
+pages/Donate.tsx:474:              : "如需匿名，您的信息将完全保密。如愿意公开，您的名字将显示在此。"}
+pages/Donate.tsx:479:      {/* 9. 最终CTA区 */}
+pages/Donate.tsx:485:              : "一个有才华的毕业生，不应该因为买不起摄影机而放弃成为导演的梦想。"}"
+pages/Donate.tsx:495:            {isEn ? "Donate Now · Change Someone's Story" : "立即捐款 · 改变一个人的故事"}
+pages/Home.tsx:35:            {isEn ? "Empowering Film Grads" : "影视行业毕业生就业支持"}<br/>
+pages/Home.tsx:36:            <span className="text-[#C9A84C]">{isEn ? "To Break the Barriers" : "全球公益扶持平台"}</span>
+pages/Home.tsx:41:              : "作为一家非营利机构，GFA的存在只有一个意义：帮助有才华的电影毕业生跨越行业壁垒。设备、导师、发行、资金——我们为你解决入行最难的一步。"}
+pages/Home.tsx:45:              {isEn ? "Apply for Support" : "申请就业支持"}
+pages/Home.tsx:49:              <Heart className="w-5 h-5 group-hover:scale-110 transition-transform" /> {isEn ? "Donate Now" : "立即捐款"}
+pages/Home.tsx:85:              {isEn ? "California Film Industry Crisis: 2024-2026" : "加州影视就业危机 — 2024-2026现状"}
+pages/Home.tsx:90:                : "这是GFA存在最重要的理由：行业正在经历近年来最严重的就业危机，新毕业生面临前所未有的困境。"}
+pages/Home.tsx:100:              <p className="text-xs font-bold text-white uppercase tracking-widest mb-1">{isEn ? "Lost Jobs in LA" : "洛杉矶流失岗位"}</p>
+pages/Home.tsx:107:              <p className="text-xs font-bold text-white uppercase tracking-widest mb-1">{isEn ? "Unemployment Rate" : "影视行业失业率"}</p>
+pages/Home.tsx:108:              <p className="text-[10px] font-bold text-white/50 uppercase tracking-[0.2em]">{isEn ? "2.5x National Avg" : "全国平均的2.5倍"}</p>
+pages/Home.tsx:114:              <p className="text-xs font-bold text-white uppercase tracking-widest mb-1">{isEn ? "On-Location Shoots" : "洛杉矶实地拍摄天数"}</p>
+pages/Home.tsx:115:              <p className="text-[10px] font-bold text-white/50 uppercase tracking-[0.2em]">{isEn ? "Q1 2025" : "2025年 Q1"}</p>
+pages/Home.tsx:121:              <p className="text-xs font-bold text-white uppercase tracking-widest mb-1">{isEn ? "Industry Emp Rate" : "全行业总体就业率"}</p>
+pages/Home.tsx:122:              <p className="text-[10px] font-bold text-white/50 uppercase tracking-[0.2em]">{isEn ? "Below 2022 Peak" : "低于2022年峰值"}</p>
+pages/Home.tsx:131:                  {isEn ? "Annual Graduates Output" : "加州主要电影学院毕业生数量 (每年)"}
+pages/Home.tsx:138:                       <p className="text-xs text-white/60 font-light">{isEn ? "Global Top Film School" : "全球顶尖电影学院"}</p>
+pages/Home.tsx:148:                       <p className="text-xs text-white/60 font-light">{isEn ? "Top Public Institution" : "公立顶尖院校"}</p>
+pages/Home.tsx:158:                       <p className="text-xs text-white/60 font-light">{isEn ? "LA Region Programs" : "洛杉矶地区两校合计"}</p>
+pages/Home.tsx:168:                       <p className="text-xs text-white/60 font-light">{isEn ? "All CSU Film Programs" : "全加州CSU院校影视相关专业"}</p>
+pages/Home.tsx:178:                       <p className="text-xs text-white/60 font-light">{isEn ? "Mt.SAC & other film grads" : "Mt.SAC等项目每年结业学生"}</p>
+pages/Home.tsx:188:                <p className="text-xs font-bold uppercase tracking-[0.3em] text-[#C9A84C] leading-loose max-w-[60%]">{isEn ? "California Annual Total" : "加州全州合计每年进入市场的影视毕业生"}</p>
+pages/Home.tsx:199:                <h4 className="text-lg font-bold font-serif text-white mb-2">{isEn ? "Drastically Reduced Jobs" : "行业岗位大幅减少"}</h4>
+pages/Home.tsx:203:                    : "2024年洛杉矶仅剩7,716个实地拍摄天数，较2021年峰值暴跌58%。每个岗位竞争者激增，新人几乎没有机会。"}
+pages/Home.tsx:208:                <h4 className="text-lg font-bold font-serif text-white mb-2">{isEn ? "No Professional Gear" : "没有专业设备"}</h4>
+pages/Home.tsx:212:                    : "专业摄影机日租金数百美元，刚毕业的学生根本负担不起。没有作品就没有工作，没有设备就没有作品——死循环。"}
+pages/Home.tsx:217:                <h4 className="text-lg font-bold font-serif text-white mb-2">{isEn ? "No Industry Network" : "没有行业人脉"}</h4>
+pages/Home.tsx:221:                    : "好莱坞高度依赖人脉推荐。外人、移民、低收入背景的毕业生，几乎没有进入这个圈子的渠道。"}
+pages/Home.tsx:226:                <h4 className="text-lg font-bold font-serif text-white mb-2">{isEn ? "Diversity Challenges" : "多元背景者进入劣势"}</h4>
+pages/Home.tsx:230:                    : "少数族裔、移民、低收入家庭的毕业生缺乏社会资本和行业关系，在市场中处于极度劣势。"}
+pages/Home.tsx:238:                {isEn ? "What this means for GFA — The Massive Service Gap" : "这对GFA意味着什么 — 巨大的服务缺口"}
+pages/Home.tsx:241:                {isEn ? "Existing support orgs primarily serve industry veterans, leaving fresh graduates without dedicated support. Filling this verifiable void is our mission." : "现有的支持机构主要服务老从业者，新毕业生几乎没有专属支持。我们填补了这一真实存在的服务空白。"}
+pages/Home.tsx:252:              {isEn ? "GFA's Concrete Solutions" : "GFA能解决的具体痛点"}
+pages/Home.tsx:254:              <span className="text-[#C9A84C] text-2xl md:text-3xl">{isEn ? "Breaking the 4 Critical Industry Barriers" : "打破好莱坞四大核心壁垒"}</span>
+pages/Home.tsx:262:                 {isEn ? "Equipment Access" : "设备壁垒"}
+pages/Home.tsx:267:                   : "基于Blackmagic Design等品牌的合作设备库，我们提供100%免费借用，让毕业生无需高昂负债即可利用专业级电影机完成第一部行业标准的独立长片。"}
+pages/Home.tsx:274:                 {isEn ? "Industry Mentorship" : "人脉壁垒"}
+pages/Home.tsx:279:                   : "构建强大的好莱坞导师网络，实行一对一精准匹配。我们致力于帮助外来者和处于极度劣势地位的毕业生打破圈层，真正进入核心行业社交圈。"}
+pages/Home.tsx:286:                 {isEn ? "Platform Distribution" : "发行壁垒"}
+pages/Home.tsx:291:                   : "我们通过直接的发行管道，协助青年创作者的影视作品成功进入Amazon Prime、Tubi等全球性流媒体平台，在海量受众前建立作品可见度。"}
+pages/Home.tsx:298:                 {isEn ? "Grant Assistance" : "资金壁垒"}
+pages/Home.tsx:303:                   : "提供专业的基金申请辅导培训。我们帮助独立电影毕业生撰写标书，以获取NEA、加州艺术委员会及多项私人艺术基金会的资金支持。"}
+pages/Home.tsx:318:              {isEn ? "Our Growing Impact" : "我们的核心数据与影响力"}
+pages/Home.tsx:328:              <p className="text-sm font-bold text-white uppercase tracking-wider">{isEn ? "Partner Talent Agencies" : "合作经纪公司"}</p>
+pages/Home.tsx:335:              <p className="text-sm font-bold text-white uppercase tracking-wider">{isEn ? "Films Produced & Supported" : "制作及支持的影视作品"}</p>
+pages/Home.tsx:342:              <p className="text-sm font-bold text-white uppercase tracking-wider">{isEn ? "Funding Facilitated" : "协助获取的各类资金"}</p>
+pages/Home.tsx:349:              <p className="text-sm font-bold text-white uppercase tracking-wider">{isEn ? "Global Film Festivals" : "全球合作电影节"}</p>
+pages/Home.tsx:360:              {isEn ? "Our Support & Programs" : "我们的扶持和青少年培养计划"}
+pages/Home.tsx:363:              {isEn ? "We believe in hands-on experience, real opportunities, and a supportive community for all ages." : "我们坚信实践出真知，为所有年龄段创作者提供真实的机会和互助的社区环境。"}
+pages/Home.tsx:383:                <h3 className="text-2xl font-bold font-serif mb-2 text-gfa-inkBlack">{isEn ? "Filmmaker Career Support" : "新电影人就业扶持"}</h3>
+pages/Home.tsx:388:                    : "设备借用、导师对接、作品发行、基金申请辅导、就业推荐网络。"}
+pages/Home.tsx:391:                  {isEn ? "Learn More" : "了解详情"} <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
+pages/Home.tsx:409:                <h3 className="text-2xl font-bold font-serif mb-2 text-gfa-inkBlack">{isEn ? "Youth Film Program" : "儿童与青少年计划"}</h3>
+pages/Home.tsx:414:                    : "6-17岁影视夏令营、儿童电影制作项目、才艺大赛报名。"}
+pages/Home.tsx:417:                  {isEn ? "Learn More" : "了解详情"} <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
+pages/Home.tsx:435:                <h3 className="text-2xl font-bold font-serif mb-2 text-gfa-inkBlack">{isEn ? "Family Career Guide" : "家长艺术规划指南"}</h3>
+pages/Home.tsx:440:                    : "帮助家长了解影视行业，为孩子规划清晰的艺术职业成长路径。"}
+pages/Home.tsx:443:                  {isEn ? "Learn More" : "了解详情"} <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
+pages/Home.tsx:459:              {isEn ? "From Dream to Career" : "从梦想到职业，GFA在每一步"}
+pages/Home.tsx:471:                <h4 className="font-bold text-lg mb-1">{isEn ? "Ages 6-10" : "6-10岁：发现电影"}</h4>
+pages/Home.tsx:472:                <div className="text-sm text-[#C9A84C] font-bold mb-3">{isEn ? "Discover Film" : "夏令营 · 社区放映"}</div>
+pages/Home.tsx:481:                <h4 className="font-bold text-lg mb-1">{isEn ? "Ages 11-14" : "11-14岁：学习创作"}</h4>
+pages/Home.tsx:482:                <div className="text-sm text-[#C9A84C] font-bold mb-3">{isEn ? "Learn Creation" : "短片制作 · 才艺大赛"}</div>
+pages/Home.tsx:491:                <h4 className="font-bold text-lg mb-1">{isEn ? "Ages 15-18" : "15-18岁：专业训练"}</h4>
+pages/Home.tsx:492:                <div className="text-sm text-[#C9A84C] font-bold mb-3">{isEn ? "Pro Training" : "好莱坞培训 · AI影视"}</div>
+pages/Home.tsx:501:                <h4 className="font-bold text-lg mb-1">{isEn ? "Graduation" : "毕业阶段：进入行业"}</h4>
+pages/Home.tsx:502:                <div className="text-sm text-[#C9A84C] font-bold mb-3">{isEn ? "Break Into Industry" : "就业扶持 · 设备资源"}</div>
+pages/Home.tsx:511:                <h4 className="font-bold text-lg mb-1">{isEn ? "Professional" : "职业阶段：反哺社区"}</h4>
+pages/Home.tsx:512:                <div className="text-sm text-gfa-inkBlack font-bold mb-3">{isEn ? "Give Back" : "成为导师 · 支持下一代"}</div>
+pages/Home.tsx:528:              {isEn ? "Awards & Events" : "奖项与赛事"}
+pages/Home.tsx:539:                  <h3 className="text-3xl font-bold font-serif text-white mb-2">{isEn ? "Golden Feather Awards" : "金羽奖"}</h3>
+pages/Home.tsx:540:                  <p className="text-[#C9A84C] font-bold text-sm tracking-widest uppercase">{isEn ? "Hollywood's Premier Youth Film Awards" : "好莱坞最受期待的青年电影人颁奖礼"}</p>
+pages/Home.tsx:547:                    : "每年在好莱坞举办，表彰在电影艺术领域展现卓越才华的青年创作者。2025年，18位青少年在此获奖。"}
+pages/Home.tsx:550:                  {isEn ? "About the Awards" : "了解金羽奖"}
+pages/Home.tsx:561:                  <h3 className="text-3xl font-bold font-serif text-white mb-2">{isEn ? "Global Youth Talent Competition" : "2026全球青少年才艺大赛"}</h3>
+pages/Home.tsx:562:                  <p className="text-[#C9A84C] font-bold text-sm tracking-widest uppercase">{isEn ? "2026 Grand Finale at Dolby Theatre" : "全球青少年才艺大赛"}</p>
+pages/Home.tsx:569:                    : "首个中美同步举办的青少年影视才艺大赛，2026年决赛登陆好莱坞 Dolby Theatre。"}
+pages/Home.tsx:572:                  {isEn ? "Register Now" : "立即报名"}
+pages/Home.tsx:587:                 : `"一个有才华的毕业生，不应该因为买不起摄影机而放弃成为导演的梦想。"`}
+pages/Home.tsx:596:                    <p className="font-bold text-lg">{isEn ? "Empowering the Next Generation" : "赋能下一代创作者"}</p>
+pages/Home.tsx:604:                     {isEn ? "Your donation directly supports:" : "您的捐款将直接用于："}
+pages/Home.tsx:609:                       <span className="leading-relaxed">{isEn ? "Subsidizing professional cinema camera packages for independent debut features." : "全额资助青年导演首部独立长片的专业级电影机、灯光及录音设备支持计划。"}</span>
+pages/Home.tsx:613:                       <span className="leading-relaxed">{isEn ? "Funding specialized cinematic arts scholarships for underprivileged creative youth." : "设立面向全球低收入贫困家庭青少年群体的专项电影创作夏令营公益奖学金。"}</span>
+pages/Home.tsx:617:                       <span className="leading-relaxed">{isEn ? "Capitalizing final post-production finishing and global theatrical distribution pipelines." : "注资协助优秀毕业作品及青年独立电影的后期制作流完片，并打通全球院线与流媒体发行。"}</span>
+pages/Home.tsx:625:                       {isEn ? "Financial & Equipment Support" : "资金与设备捐赠"}
+pages/Home.tsx:628:                       {isEn ? "Help us fund scholarships, production grants, or gear." : "资金或设备将直接用于青年项目资助。"}
+pages/Home.tsx:635:                      {isEn ? "Donate Now" : "立即捐赠"}
+pages/Home.tsx:647:              {isEn ? "Our Global Partners & Sponsors" : "全球赞助与合作伙伴"}
+pages/GetInvolved.tsx:19:             {isEn ? "Join the" : "加入"}<br/>
+pages/GetInvolved.tsx:20:             <span className="text-[#C9A84C]">{isEn ? "Movement." : "这项目标。"}</span>
+pages/GetInvolved.tsx:25:               : "培养一名电影人需要整个社区的力量。贡献你的时间、你的专业技能、或是你的热情。"}
+pages/GetInvolved.tsx:38:                 <h3 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-4">{isEn ? "Volunteer" : "成为志愿者"}</h3>
+pages/GetInvolved.tsx:42:                     : "在我们的夏令营中提供帮助，协助举办金羽奖，或是在社区放映中提供支持。非常适合寻找社区服务小时数的高中大学生和热心人士。"}
+pages/GetInvolved.tsx:45:                   {isEn ? "Apply to Volunteer" : "申请成为志愿者"} <ArrowRight className="w-4 h-4"/>
+pages/GetInvolved.tsx:52:                 <h3 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-4">{isEn ? "Become a Mentor" : "成为导师"}</h3>
+pages/GetInvolved.tsx:56:                     : "您是已经在好莱坞立足的专业人士吗？请通过指导1-2名新晋电影人来回馈行业。审阅他们的剧本，一起喝杯咖啡，或是让他们在片场观摩。"}
+pages/GetInvolved.tsx:59:                   {isEn ? "Join Mentorship Matrix" : "加入导师网络"} <ArrowRight className="w-4 h-4"/>
+pages/GetInvolved.tsx:66:                 <h3 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-4">{isEn ? "Careers & Internships" : "工作与实习"}</h3>
+pages/GetInvolved.tsx:70:                     : "加入GFA核心团队。我们不定期招聘夏令营辅导员、数字营销人员和项目协调员，以维持非营利组织的高效运转。"}
+pages/GetInvolved.tsx:73:                   {isEn ? "View Openings" : "查看开放职位"} <ArrowRight className="w-4 h-4"/>

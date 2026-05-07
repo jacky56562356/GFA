@@ -37,7 +37,7 @@ const Competition: React.FC = () => {
       <section className="relative h-screen min-h-[800px] flex items-center justify-center overflow-hidden bg-gfa-inkBlack group pt-20">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://i.ibb.co/TqHKNcjx/1731693e1e0ea8102582bec61f0aed1d.jpg" 
+            src="https://i.ibb.co/S4Mb6TcN/24480b00-65a2-4468-8dc6-50aae205d0fa.png" 
             alt="Dolby Theatre style stage" 
             className="w-full h-full object-cover opacity-50 mix-blend-luminosity transform group-hover:scale-105 transition-transform duration-[20s]" 
           />

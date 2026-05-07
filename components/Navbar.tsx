@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
                 onClick={() => setLocale(Locale.ZH)}
                 className={`transition-colors hover:text-gfa-gold ${locale === Locale.ZH ? 'text-gfa-gold' : 'text-gfa-slate'}`}
               >
-                中文
+                {locale === Locale.EN ? 'ZH' : '中文'}
               </button>
             </div>
             
@@ -105,7 +105,7 @@ const Navbar: React.FC = () => {
                 onClick={() => { setLocale(Locale.ZH); setMobileMenuOpen(false); }}
                 className={`text-lg font-bold tracking-widest ${locale === Locale.ZH ? 'text-gfa-gold' : 'text-gfa-slate'}`}
               >
-                中文
+                {locale === Locale.EN ? 'ZH' : '中文'}
               </button>
           </div>
 
