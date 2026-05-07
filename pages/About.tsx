@@ -16,9 +16,9 @@ const About: React.FC = () => {
       <section className="relative h-[40vh] min-h-[400px] flex items-center justify-center overflow-hidden bg-gfa-inkBlack mt-[90px] md:mt-[100px]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1542204165-65bf26472b9b?q=80&w=1974&auto=format&fit=crop" 
+            src="https://i.ibb.co/jZ8b7DQD/IMG-3304.jpg" 
             alt="Founders and Team" 
-            className="w-full h-full object-cover opacity-30 mix-blend-luminosity" 
+            className="w-full h-full object-cover opacity-50 mix-blend-luminosity" 
           />
           <div className="absolute inset-0 bg-gradient-to-t from-gfa-inkBlack via-gfa-inkBlack/50 to-transparent"></div>
         </div>
@@ -72,158 +72,182 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Organization Introduction */}
-      <section className="py-6 md:py-8 bg-white border-t border-gfa-border">
+      {/* Complete Content Section */}
+      <section className="py-12 md:py-16 bg-white border-t border-gfa-border">
         <div className="container-gfa max-w-5xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center">
-            <div className="space-y-4 text-sm md:text-base font-light text-gfa-slate leading-relaxed">
-              <div>
-                <h3 className="text-xl font-bold font-serif text-gfa-inkBlack mb-3">
-                  {isEn ? "About Global Film Alliance" : "关于全球电影联盟"}
-                </h3>
-                <p>
-                  {isEn 
-                    ? "Global Film Alliance (GFA) is a 501(c)(3) nonprofit organization headquartered in Los Angeles, California. We believe that barriers to the film industry should be determined by nothing beyond talent — not family background, not personal connections, and not financial resources." 
-                    : "全球电影联盟（Global Film Alliance，简称GFA）是一家总部位于加利福尼亚州洛杉矶的501(c)(3)认证非营利组织。我们相信，电影行业的壁垒不应该由才华之外的任何因素决定——不是家庭背景，不是人脉关系，也不是资金多寡。"}
-                </p>
-                <p className="mt-6">
+          
+          {/* Organization Introduction */}
+          <div className="mb-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <div>
+              <h3 className="text-2xl font-bold font-serif text-gfa-inkBlack mb-6">
+                {isEn ? "About Global Film Alliance" : "机构简介"}
+              </h3>
+              <p className="text-base md:text-lg font-light text-gfa-slate leading-relaxed">
+                {isEn 
+                  ? "Global Film Alliance (GFA) is a 501(c)(3) certified nonprofit organization headquartered in Los Angeles, California. Through our commitment to film education, industry support, and international cooperation, we break down industry barriers and create equitable opportunities for everyone passionate about film." 
+                  : "全球电影联盟（Global Film Alliance，简称GFA）是总部位于加利福尼亚州洛杉矶的501(c)(3)认证非营利组织。我们通过致力于影视教育、产业支撑与国际合作，为所有热爱电影的人打破行业壁垒，创造公平的机会。"}
+              </p>
+              <div className="mt-8 flex items-center gap-4">
+                <img src="https://i.ibb.co/nNQnFsHd/t.png" alt="GFA Certification" className="h-16 w-auto object-contain" />
+              </div>
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-100">
+               <img src="https://i.ibb.co/5W4kfjsB/intro-photo.jpg" alt="About GFA" className="w-full h-auto object-cover" />
+            </div>
+          </div>
+
+          {/* Mission and Vision Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            <div className="bg-[#F5F2EE] p-8 rounded-2xl border border-[#C9A84C]/20">
+              <h3 className="text-xl font-bold font-serif text-gfa-inkBlack mb-4 flex items-center gap-2">
+                 <Target className="w-5 h-5 text-[#C9A84C]" />
+                {isEn ? "Our Mission" : "使命"}
+              </h3>
+              <p className="text-gfa-slate font-light leading-relaxed">
+                {isEn
+                  ? "Transform the next generation through film education; empower every filmmaker through industry support."
+                  : "通过电影教育改变下一代，通过产业支持成就每一位电影人。"}
+              </p>
+            </div>
+            <div className="bg-gfa-inkBlack text-white p-8 rounded-2xl">
+              <h3 className="text-xl font-bold font-serif text-[#C9A84C] mb-4 flex items-center gap-2">
+                 <Target className="w-5 h-5" />
+                {isEn ? "Our Vision" : "愿景"}
+              </h3>
+              <p className="text-white/80 font-light leading-relaxed">
+                {isEn
+                  ? "To become a leading global film education and industry support platform, building an international film ecosystem that integrates education, creation, distribution, and industry resources."
+                  : "成为全球领先的电影教育与产业支撑平台，构建融合教育、创作、发行与产业资源的国际影视生态系统。"}
+              </p>
+            </div>
+          </div>
+
+          {/* Four Core Truths */}
+          <div className="mb-16">
+            <div className="text-center mb-10">
+              <h3 className="text-2xl md:text-3xl font-bold font-serif text-gfa-inkBlack">
+                {isEn ? "Four Core Truths" : "四大真理"}
+              </h3>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Truth 1 */}
+              <div className="bg-white p-6 rounded-2xl border border-gray-100 hover:border-[#C9A84C]/50 transition-colors shadow-sm">
+                <div className="w-10 h-10 bg-[#C9A84C]/10 rounded-full flex items-center justify-center mb-4 text-[#C9A84C] font-bold text-lg">1</div>
+                <h4 className="text-lg font-bold font-serif text-gfa-inkBlack mb-3">
+                  {isEn ? "Nurture Youth Film Talent" : "培养青少年电影人才"}
+                </h4>
+                <p className="text-sm font-light text-gfa-slate leading-relaxed">
                   {isEn
-                    ? "Our work spans two core directions: providing systematic career support for film graduates and emerging directors, and nurturing the next generation of creators through youth film education."
-                    : "我们的工作覆盖两个核心方向：为电影专业毕业生和新晋导演提供系统性的就业扶持，以及通过青少年影视教育为下一代创作者播下梦想的种子。"}
+                    ? "Provide systematic film education for children and youth, including professional training in acting, directing, filming, and screenwriting, fostering artistic literacy and creativity."
+                    : "为儿童及青少年提供系统化影视教育，包括表演、导演、拍摄、编剧等专业训练，有利于建立艺术素养与创造力。"}
+                </p>
+              </div>
+
+              {/* Truth 2 */}
+              <div className="bg-white p-6 rounded-2xl border border-gray-100 hover:border-[#C9A84C]/50 transition-colors shadow-sm">
+                <div className="w-10 h-10 bg-[#C9A84C]/10 rounded-full flex items-center justify-center mb-4 text-[#C9A84C] font-bold text-lg">2</div>
+                <h4 className="text-lg font-bold font-serif text-gfa-inkBlack mb-3">
+                  {isEn ? "Promote Equitable Film Opportunities" : "推动公平的电影机会"}
+                </h4>
+                <p className="text-sm font-light text-gfa-slate leading-relaxed">
+                  {isEn
+                    ? "Provide opportunities for seniors from diverse backgrounds to enter the film industry, raising industry standards and promoting confidence and caring development."
+                    : "为不同背景的老年人提供进入影视行业的机会，提高行业水平，促进信心与关怀性发展。"}
+                </p>
+              </div>
+
+              {/* Truth 3 */}
+              <div className="bg-white p-6 rounded-2xl border border-gray-100 hover:border-[#C9A84C]/50 transition-colors shadow-sm">
+                <div className="w-10 h-10 bg-[#C9A84C]/10 rounded-full flex items-center justify-center mb-4 text-[#C9A84C] font-bold text-lg">3</div>
+                <h4 className="text-lg font-bold font-serif text-gfa-inkBlack mb-3">
+                  {isEn ? "Support Independent Filmmakers & Emerging Directors" : "支持独立电影人与新晋导演"}
+                </h4>
+                <p className="text-sm font-light text-gfa-slate leading-relaxed">
+                  {isEn
+                    ? "Provide emerging filmmakers with equipment, mentorship networks, distribution channels, and funding support to help them complete the full cycle from creation to distribution."
+                    : "为新兴电影人提供设备、导师网络、发行渠道和资金支持，帮助完成从创作到发行的全程闭环。"}
+                </p>
+              </div>
+
+              {/* Truth 4 */}
+              <div className="bg-white p-6 rounded-2xl border border-gray-100 hover:border-[#C9A84C]/50 transition-colors shadow-sm">
+                <div className="w-10 h-10 bg-[#C9A84C]/10 rounded-full flex items-center justify-center mb-4 text-[#C9A84C] font-bold text-lg">4</div>
+                <h4 className="text-lg font-bold font-serif text-gfa-inkBlack mb-3">
+                  {isEn ? "Build a Film Ecosystem" : "打造电影生态"}
+                </h4>
+                <p className="text-sm font-light text-gfa-slate leading-relaxed">
+                  {isEn
+                    ? "Advance high-quality, socially valuable film and television content, and utilize the Golden Feather Awards system to honor outstanding emerging directors and distinguished filmmakers."
+                    : "推进高质量、有社会价值的影视制作内容，并通过金羽毛奖（Golden Feather Awards）体系表彰优秀的新晋导演与杰出电影人。"}
                 </p>
               </div>
             </div>
-
-            <div className="flex justify-center items-center">
-              <div className="rounded-2xl overflow-hidden shadow-lg border border-gfa-border w-1/2">
-                 <img 
-                   src="https://i.ibb.co/prw8Q6Rh/converted-image.jpg" 
-                   alt="GFA Mission" 
-                   className="w-full h-auto object-cover" 
-                 />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Mission */}
-      <section className="py-6 md:py-8 bg-[#F5F2EE]">
-        <div className="container-gfa max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-xl md:text-2xl font-bold font-serif text-gfa-inkBlack mb-4">
-            {isEn ? "Our Mission" : "我们的使命"}
-          </h2>
-          <p className="text-sm md:text-base text-gfa-slate font-light leading-relaxed mx-auto">
-            {isEn
-              ? "Global Film Alliance is dedicated to dismantling the systemic barriers that prevent talented individuals from building careers in film. We provide film graduates and emerging directors with the equipment, mentorship, distribution access, and funding support they need to enter the professional industry. In parallel, our youth education programs create a structured pathway into film for young people from all backgrounds."
-              : "全球电影联盟致力于消除电影行业中系统性的就业壁垒，为电影专业毕业生和新晋导演提供进入好莱坞职业体系所需的设备、导师网络、发行渠道和资金支持。与此同时，我们通过系统性的青少年影视教育项目，为来自多元背景的年轻人开辟一条通往电影行业的成长路径。"}
-          </p>
-        </div>
-      </section>
-
-      {/* Who We Serve */}
-      <section className="py-6 md:py-8 bg-white">
-        <div className="container-gfa max-w-6xl mx-auto px-4">
-          <div className="text-center mb-6">
-            <h2 className="text-xl md:text-2xl font-bold font-serif text-gfa-inkBlack">
-              {isEn ? "Who We Serve" : "我们服务的人群"}
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-gray-50 rounded-xl p-5 border border-gray-100 hover:border-[#C9A84C]/30 transition-colors">
-              <h3 className="text-base md:text-lg font-bold font-serif text-gfa-inkBlack mb-2">
-                {isEn ? "Film School Graduates" : "电影专业毕业生"}
-              </h3>
-              <p className="text-sm text-gfa-slate font-light">
-                {isEn
-                  ? "Recent graduates seeking their first break in the industry, receiving equipment, mentorship, and career support."
-                  : "寻求进入行业第一步的毕业生，我们提供设备、导师和就业支持。"}
-              </p>
-            </div>
-            <div className="bg-gray-50 rounded-xl p-6 border border-gray-100 hover:border-[#C9A84C]/30 transition-colors">
-              <h3 className="text-base md:text-lg font-bold font-serif text-gfa-inkBlack mb-2">
-                {isEn ? "Emerging Independent Directors" : "新晋独立导演"}
-              </h3>
-              <p className="text-sm text-gfa-slate font-light">
-                {isEn
-                  ? "Independent creators with projects who lack distribution channels and industry resources."
-                  : "有作品但缺乏发行渠道和行业资源的独立创作者。"}
-              </p>
-            </div>
-            <div className="bg-gray-50 rounded-xl p-6 border border-gray-100 hover:border-[#C9A84C]/30 transition-colors">
-              <h3 className="text-base md:text-lg font-bold font-serif text-gfa-inkBlack mb-2">
-                {isEn ? "Youth Ages 6–17" : "儿童与青少年"}
-              </h3>
-              <p className="text-sm text-gfa-slate font-light">
-                {isEn
-                  ? "Young people exploring their creative potential through summer camps and production projects."
-                  : "通过影视夏令营和制作项目探索创作潜能的年轻人。"}
-              </p>
-            </div>
-            <div className="bg-gray-50 rounded-xl p-6 border border-gray-100 hover:border-[#C9A84C]/30 transition-colors">
-              <h3 className="text-base md:text-lg font-bold font-serif text-gfa-inkBlack mb-2">
-                {isEn ? "Special Needs Youth" : "特殊需求儿童"}
-              </h3>
-              <p className="text-sm text-gfa-slate font-light">
-                {isEn
-                  ? "Children and youth with special needs, like autism or depression, finding healing through cinematic arts therapy."
-                  : "自闭症、抑郁症等特殊需求儿童，通过电影创作进行艺术疗愈。"}
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Core Values */}
-      <section className="py-6 md:py-8 bg-gfa-inkBlack text-white">
-        <div className="container-gfa px-4">
-          <div className="text-center mb-6">
-            <h2 className="text-xl font-bold font-serif mb-2 text-[#C9A84C]">
-              {isEn ? "Our Core Values" : "核心价值观"}
-            </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 max-w-6xl mx-auto">
-            {/* Value 1 */}
-            <div className="text-center border border-white/10 p-5 rounded-xl hover:bg-white/5 transition-colors">
-              <div className="w-10 h-10 bg-[#C9A84C]/10 rounded-lg flex items-center justify-center mx-auto mb-3 text-[#C9A84C]">
-                <Target className="w-5 h-5" />
-              </div>
-              <h3 className="text-lg font-bold font-serif mb-1 uppercase tracking-wider">{isEn ? "Access" : "可及性"}</h3>
-              <h4 className="text-sm font-medium text-[#C9A84C] mb-3">{isEn ? "Open Every Door" : "打开每一扇门"}</h4>
-              <p className="text-sm text-white/70 font-light leading-relaxed mx-auto">
-                {isEn 
-                  ? "Talent should never be constrained by resources. Every creator with a dream deserves access to the support they need, regardless of background or income." 
-                  : "我们相信，才华不应该受到资源的限制。无论背景、收入或人脉，每一位有梦想的创作者都应该获得他们需要的支持。"}
-              </p>
+          {/* Core Business */}
+          <div>
+            <div className="text-center mb-10">
+              <h3 className="text-2xl md:text-3xl font-bold font-serif text-gfa-inkBlack">
+                {isEn ? "Core Business" : "核心业务"}
+              </h3>
             </div>
 
-            {/* Value 2 */}
-            <div className="text-center border border-white/10 p-5 rounded-xl hover:bg-white/5 transition-colors">
-              <div className="w-10 h-10 bg-[#C9A84C]/10 rounded-lg flex items-center justify-center mx-auto mb-3 text-[#C9A84C]">
-                <Users className="w-5 h-5" />
-              </div>
-              <h3 className="text-lg font-bold font-serif mb-1 uppercase tracking-wider">{isEn ? "Community" : "社区根基"}</h3>
-              <h4 className="text-sm font-medium text-[#C9A84C] mb-3">{isEn ? "Rooted & Diverse" : "扎根社区，服务多元"}</h4>
-              <p className="text-sm text-white/70 font-light leading-relaxed mx-auto">
-                {isEn 
-                  ? "Rooted in Los Angeles, we serve filmmakers and families from diverse cultural backgrounds, using film as a language that bridges communities." 
-                  : "我们深植于洛杉矶社区，服务来自多元文化背景的电影人和家庭。电影是连接不同文化的语言，我们用它来构建更紧密的社区纽带。"}
-              </p>
-            </div>
-
-            {/* Value 3 */}
-            <div className="text-center border border-white/10 p-5 rounded-xl hover:bg-white/5 transition-colors">
-              <div className="w-10 h-10 bg-[#C9A84C]/10 rounded-lg flex items-center justify-center mx-auto mb-3 text-[#C9A84C]">
-                <Heart className="w-5 h-5" />
-              </div>
-              <h3 className="text-lg font-bold font-serif mb-1 uppercase tracking-wider">{isEn ? "Impact" : "真实影响"}</h3>
-              <h4 className="text-sm font-medium text-[#C9A84C] mb-3">{isEn ? "Measuring Real Success" : "以结果衡量成功"}</h4>
-              <p className="text-sm text-white/70 font-light leading-relaxed mx-auto">
-                {isEn 
-                  ? "We measure our success not by events hosted, but by careers launched, barriers broken, and lives genuinely changed." 
-                  : "我们不以举办了多少活动来衡量成功，而是以真正帮助了多少人进入行业、改变了多少孩子的生命轨迹来衡量。"}
-              </p>
+            <div className="overflow-hidden rounded-2xl border border-gray-200 shadow-sm">
+              <table className="w-full text-left border-collapse">
+                <thead>
+                  <tr className="bg-[#F5F2EE] border-b border-gray-200">
+                    <th className="py-4 px-6 font-bold text-gfa-inkBlack w-1/3 border-r border-gray-200">
+                      {isEn ? "Sector" : "板块"}
+                    </th>
+                    <th className="py-4 px-6 font-bold text-gfa-inkBlack">
+                      {isEn ? "Content" : "内容"}
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  <tr className="bg-white hover:bg-gray-50 transition-colors">
+                    <td className="py-5 px-6 font-bold font-serif text-gfa-inkBlack border-r border-gray-200">
+                      {isEn ? "Youth Education" : "青少年教育"}
+                    </td>
+                    <td className="py-5 px-6 text-sm text-gfa-slate font-light leading-relaxed">
+                      {isEn 
+                        ? "Film acting, directing, screenwriting, cinematography courses; film summer camps; practical shooting" 
+                        : "影视表演、导演、编剧、摄影课程；电影夏令营；实战拍摄"}
+                    </td>
+                  </tr>
+                  <tr className="bg-white hover:bg-gray-50 transition-colors">
+                    <td className="py-5 px-6 font-bold font-serif text-gfa-inkBlack border-r border-gray-200">
+                      {isEn ? "Film Production Support" : "电影制作支持"}
+                    </td>
+                    <td className="py-5 px-6 text-sm text-gfa-slate font-light leading-relaxed">
+                      {isEn 
+                        ? "Original film production; short films; film festival projects" 
+                        : "原创电影制作；短片；电影节参赛项目"}
+                    </td>
+                  </tr>
+                  <tr className="bg-white hover:bg-gray-50 transition-colors">
+                    <td className="py-5 px-6 font-bold font-serif text-gfa-inkBlack border-r border-gray-200">
+                      {isEn ? "Emerging Filmmaker Support" : "新晋电影人支持"}
+                    </td>
+                    <td className="py-5 px-6 text-sm text-gfa-slate font-light leading-relaxed">
+                      {isEn 
+                        ? "Funding support; equipment resources; mentorship network; talent events & film companies" 
+                        : "资金支持；设备资源；导师网络；人才活动影视公司"}
+                    </td>
+                  </tr>
+                  <tr className="bg-white hover:bg-gray-50 transition-colors">
+                    <td className="py-5 px-6 font-bold font-serif text-gfa-inkBlack border-r border-gray-200">
+                      {isEn ? "Honorary Awards" : "荣誉奖项"}
+                    </td>
+                    <td className="py-5 px-6 text-sm text-gfa-slate font-light leading-relaxed">
+                      {isEn 
+                        ? "Golden Feather Awards — for emerging directors and all outstanding filmmakers" 
+                        : "金羽毛奖 — 面向新晋导演与所有优秀电影人"}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>

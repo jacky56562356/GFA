@@ -16,7 +16,7 @@ const Awards: React.FC = () => {
       <section className="relative h-[70vh] min-h-[600px] flex items-center justify-center overflow-hidden bg-gfa-inkBlack pt-20">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=1974&auto=format&fit=crop" 
+            src="https://i.ibb.co/QvgYZ8fk/20250929162843-133-10.jpg" 
             alt="Awards Ceremony" 
             className="w-full h-full object-cover opacity-50 mix-blend-luminosity" 
           />

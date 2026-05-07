@@ -37,14 +37,18 @@ const Competition: React.FC = () => {
       <section className="relative h-screen min-h-[800px] flex items-center justify-center overflow-hidden bg-gfa-inkBlack group pt-20">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?q=80&w=2070&auto=format&fit=crop" 
+            src="https://i.ibb.co/TqHKNcjx/1731693e1e0ea8102582bec61f0aed1d.jpg" 
             alt="Dolby Theatre style stage" 
             className="w-full h-full object-cover opacity-50 mix-blend-luminosity transform group-hover:scale-105 transition-transform duration-[20s]" 
           />
           <div className="absolute inset-0 bg-gradient-to-t from-gfa-inkBlack via-gfa-inkBlack/40 to-transparent"></div>
         </div>
 
-        <div className="container-gfa relative z-10 text-center px-4 max-w-6xl mx-auto">
+        <div className="container-gfa relative z-10 text-center px-4 max-w-6xl mx-auto flex flex-col items-center">
+          <div className="flex flex-wrap items-center justify-center gap-6 mb-8">
+            <img src="https://i.ibb.co/S4Mb6TcN/24480b00-65a2-4468-8dc6-50aae205d0fa.png" alt="Global Youth Talent Competition Logo" className="h-20 md:h-28 w-auto object-contain bg-white/90 rounded-2xl p-3 shadow-xl" />
+            <img src="https://i.ibb.co/YB6gWM9L/20260326145435-449-10.jpg" alt="Competition Logo V2" className="h-20 md:h-28 w-auto object-contain rounded-2xl shadow-xl" />
+          </div>
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold font-serif text-white mb-6 leading-tight drop-shadow-2xl">
             {isEn ? "2026 GFA Global Youth" : "2026全球青少年"}<br/>
             <span className="text-[#C9A84C]">{isEn ? "Talent Competition" : "才艺大赛"}</span>

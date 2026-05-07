@@ -16,7 +16,7 @@ const FilmmakerSupport: React.FC = () => {
       <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden bg-gfa-inkBlack pt-20">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1601506521937-0121a7fc2a6b?q=80&w=2071&auto=format&fit=crop" 
+            src="https://i.ibb.co/sp4fWHq3/Chat-GPT-Image-2026-3-23-12-23-22.png" 
             alt="Filmmaker on set" 
             className="w-full h-full object-cover opacity-40 mix-blend-luminosity" 
           />

@@ -16,7 +16,7 @@ const YouthPrograms: React.FC = () => {
       <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden bg-gfa-inkBlack pt-20">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1594908900066-3f47337549d8?q=80&w=2070&auto=format&fit=crop" 
+            src="https://i.ibb.co/0p2HWy3Z/filmmaking-in-classroom.jpg" 
             alt="Youth holding a clapperboard" 
             className="w-full h-full object-cover opacity-40 mix-blend-luminosity" 
           />
@@ -154,7 +154,7 @@ const YouthPrograms: React.FC = () => {
             {/* Program 2: Dream Film Project */}
             <div className="bg-white rounded-3xl overflow-hidden shadow-lg border border-gray-100 flex flex-col">
               <div className="h-64 bg-gray-200 relative">
-                <img src="https://images.unsplash.com/photo-1543333995-a78aea2eee50?q=80&w=2070&auto=format&fit=crop" alt="Children's Film Project" className="w-full h-full object-cover" />
+                <img src="https://i.ibb.co/LXS8q7yn/u8238228639-behind-the-scenes-photo-of-a-real-childrens-movie-5253418c-4b1d-4d9b-8f51-219cc38fdef7-3.png" alt="Children's Film Project" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 <div className="absolute bottom-6 left-6 text-white">
                   <div className="flex items-center gap-2 mb-2 text-[#C9A84C] font-bold text-xs uppercase tracking-widest">
@@ -189,7 +189,7 @@ const YouthPrograms: React.FC = () => {
             {/* Program 3: Special Needs */}
             <div className="bg-white rounded-3xl overflow-hidden shadow-lg border border-gray-100 flex flex-col">
               <div className="h-64 bg-gray-200 relative">
-                <img src="https://images.unsplash.com/photo-1581078426770-6d336e5de7bf?q=80&w=2070&auto=format&fit=crop" alt="Film Therapy" className="w-full h-full object-cover" />
+                <img src="https://i.ibb.co/ycRFxBZ4/Chat-GPT-Image-2026-3-23-12-23-04.png" alt="Film Therapy" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 <div className="absolute bottom-6 left-6 text-white">
                   <div className="flex items-center gap-2 mb-2 text-[#C9A84C] font-bold text-xs uppercase tracking-widest">
